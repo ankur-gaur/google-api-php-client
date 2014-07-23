@@ -262,7 +262,7 @@ class Google_Service_Licensing_LicenseAssignments_Resource extends Google_Servic
    * Name for product
    * @param string $skuId
    * Name for sku
-   * @param Google_LicenseAssignmentInsert $postBody
+   * @param Google_Service_Licensing_LicenseAssignmentInsert $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Licensing_LicenseAssignment
    */
@@ -330,7 +330,7 @@ class Google_Service_Licensing_LicenseAssignments_Resource extends Google_Servic
    * Name for sku for which license would be revoked
    * @param string $userId
    * email id or unique Id of the user
-   * @param Google_LicenseAssignment $postBody
+   * @param Google_Service_Licensing_LicenseAssignment $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Licensing_LicenseAssignment
    */
@@ -349,7 +349,7 @@ class Google_Service_Licensing_LicenseAssignments_Resource extends Google_Servic
    * Name for sku for which license would be revoked
    * @param string $userId
    * email id or unique Id of the user
-   * @param Google_LicenseAssignment $postBody
+   * @param Google_Service_Licensing_LicenseAssignment $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Licensing_LicenseAssignment
    */

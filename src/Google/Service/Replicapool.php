@@ -327,7 +327,7 @@ class Google_Service_Replicapool_Pools_Resource extends Google_Service_Resource
    * The zone for this replica pool.
    * @param string $poolName
    * The name of the replica pool for this request.
-   * @param Google_PoolsDeleteRequest $postBody
+   * @param Google_Service_Replicapool_PoolsDeleteRequest $postBody
    * @param array $optParams Optional parameters.
    */
   public function delete($projectName, $zone, $poolName, Google_Service_Replicapool_PoolsDeleteRequest $postBody, $optParams = array())
@@ -361,7 +361,7 @@ class Google_Service_Replicapool_Pools_Resource extends Google_Service_Resource
    * The project ID for this replica pool.
    * @param string $zone
    * The zone for this replica pool.
-   * @param Google_Pool $postBody
+   * @param Google_Service_Replicapool_Pool $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Replicapool_Pool
    */
@@ -428,7 +428,7 @@ class Google_Service_Replicapool_Pools_Resource extends Google_Service_Resource
    * The zone for this replica pool.
    * @param string $poolName
    * The name of the replica pool for this request.
-   * @param Google_Template $postBody
+   * @param Google_Service_Replicapool_Template $postBody
    * @param array $optParams Optional parameters.
    */
   public function updatetemplate($projectName, $zone, $poolName, Google_Service_Replicapool_Template $postBody, $optParams = array())
@@ -461,7 +461,7 @@ class Google_Service_Replicapool_Replicas_Resource extends Google_Service_Resour
    * The replica pool name for this request.
    * @param string $replicaName
    * The name of the replica for this request.
-   * @param Google_ReplicasDeleteRequest $postBody
+   * @param Google_Service_Replicapool_ReplicasDeleteRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Replicapool_Replica
    */

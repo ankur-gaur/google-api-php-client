@@ -1442,7 +1442,7 @@ class Google_Service_Books_Cloudloading_Resource extends Google_Service_Resource
   /**
    * (cloudloading.updateBook)
    *
-   * @param Google_BooksCloudloadingResource $postBody
+   * @param Google_Service_Books_BooksCloudloadingResource $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Books_BooksCloudloadingResource
    */
@@ -1829,7 +1829,7 @@ class Google_Service_Books_MylibraryAnnotations_Resource extends Google_Service_
   /**
    * Inserts a new annotation. (annotations.insert)
    *
-   * @param Google_Annotation $postBody
+   * @param Google_Service_Books_Annotation $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string source
@@ -1902,7 +1902,7 @@ class Google_Service_Books_MylibraryAnnotations_Resource extends Google_Service_
    *
    * @param string $annotationId
    * The ID for the annotation to update.
-   * @param Google_Annotation $postBody
+   * @param Google_Service_Books_Annotation $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string source

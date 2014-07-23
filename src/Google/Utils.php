@@ -23,6 +23,9 @@
  */
 class Google_Utils
 {
+  /**
+   * @param string $data
+   */
   public static function urlSafeB64Encode($data)
   {
     $b64 = base64_encode($data);

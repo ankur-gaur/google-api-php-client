@@ -197,7 +197,7 @@ class Google_Service_Pubsub_Subscriptions_Resource extends Google_Service_Resour
    * error. This is only used for messages received via pull.
    * (subscriptions.acknowledge)
    *
-   * @param Google_AcknowledgeRequest $postBody
+   * @param Google_Service_Pubsub_AcknowledgeRequest $postBody
    * @param array $optParams Optional parameters.
    */
   public function acknowledge(Google_Service_Pubsub_AcknowledgeRequest $postBody, $optParams = array())
@@ -211,7 +211,7 @@ class Google_Service_Pubsub_Subscriptions_Resource extends Google_Service_Resour
    * subscription already exists, returns ALREADY_EXISTS. If the corresponding
    * topic doesn't exist, returns NOT_FOUND. (subscriptions.create)
    *
-   * @param Google_Subscription $postBody
+   * @param Google_Service_Pubsub_Subscription $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Pubsub_Subscription
    */
@@ -273,7 +273,7 @@ class Google_Service_Pubsub_Subscriptions_Resource extends Google_Service_Resour
    * Modifies the Ack deadline for a message received from a pull request.
    * (subscriptions.modifyAckDeadline)
    *
-   * @param Google_ModifyAckDeadlineRequest $postBody
+   * @param Google_Service_Pubsub_ModifyAckDeadlineRequest $postBody
    * @param array $optParams Optional parameters.
    */
   public function modifyAckDeadline(Google_Service_Pubsub_ModifyAckDeadlineRequest $postBody, $optParams = array())
@@ -289,7 +289,7 @@ class Google_Service_Pubsub_Subscriptions_Resource extends Google_Service_Resour
    * push configuration is defined or while the configuration is modified.
    * (subscriptions.modifyPushConfig)
    *
-   * @param Google_ModifyPushConfigRequest $postBody
+   * @param Google_Service_Pubsub_ModifyPushConfigRequest $postBody
    * @param array $optParams Optional parameters.
    */
   public function modifyPushConfig(Google_Service_Pubsub_ModifyPushConfigRequest $postBody, $optParams = array())
@@ -305,7 +305,7 @@ class Google_Service_Pubsub_Subscriptions_Resource extends Google_Service_Resour
    * messages are available in a reasonable amount of time (to reduce system
    * load). (subscriptions.pull)
    *
-   * @param Google_PullRequest $postBody
+   * @param Google_Service_Pubsub_PullRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Pubsub_PullResponse
    */
@@ -331,7 +331,7 @@ class Google_Service_Pubsub_Topics_Resource extends Google_Service_Resource
   /**
    * Creates the given topic with the given name. (topics.create)
    *
-   * @param Google_Topic $postBody
+   * @param Google_Service_Pubsub_Topic $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Pubsub_Topic
    */
@@ -396,7 +396,7 @@ class Google_Service_Pubsub_Topics_Resource extends Google_Service_Resource
    * Adds a message to the topic. Returns NOT_FOUND if the topic does not exist.
    * (topics.publish)
    *
-   * @param Google_PublishRequest $postBody
+   * @param Google_Service_Pubsub_PublishRequest $postBody
    * @param array $optParams Optional parameters.
    */
   public function publish(Google_Service_Pubsub_PublishRequest $postBody, $optParams = array())

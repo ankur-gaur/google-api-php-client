@@ -100,7 +100,7 @@ abstract class Google_IO_Abstract
   /**
    * Execute an HTTP Request
    *
-   * @param Google_HttpRequest $request the http request to be executed
+   * @param Google_Http_Request $request the http request to be executed
    * @return Google_HttpRequest http request with the response http code,
    * response headers and response body filled in
    * @throws Google_IO_Exception on curl or IO error
@@ -143,7 +143,7 @@ abstract class Google_IO_Abstract
   /**
    * @visible for testing.
    * @param Google_Http_Request $request
-   * @return Google_Http_Request|bool Returns the cached object or
+   * @return false|string Returns the cached object or
    * false if the operation was unsuccessful.
    */
   public function getCachedRequest(Google_Http_Request $request)

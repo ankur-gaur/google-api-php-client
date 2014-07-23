@@ -333,7 +333,7 @@ class Google_Service_Taskqueue_Tasks_Resource extends Google_Service_Resource
    * The project under which the queue lies
    * @param string $taskqueue
    * The taskqueue to insert the task into
-   * @param Google_Task $postBody
+   * @param Google_Service_Taskqueue_Task $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Taskqueue_Task
    */
@@ -398,7 +398,7 @@ class Google_Service_Taskqueue_Tasks_Resource extends Google_Service_Resource
    *
    * @param int $newLeaseSeconds
    * The new lease in seconds.
-   * @param Google_Task $postBody
+   * @param Google_Service_Taskqueue_Task $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Taskqueue_Task
    */
@@ -419,7 +419,7 @@ class Google_Service_Taskqueue_Tasks_Resource extends Google_Service_Resource
    *
    * @param int $newLeaseSeconds
    * The new lease in seconds.
-   * @param Google_Task $postBody
+   * @param Google_Service_Taskqueue_Task $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Taskqueue_Task
    */

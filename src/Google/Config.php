@@ -33,6 +33,7 @@ class Google_Config
    *     application_name: "My App";
    *
    * @param [$ini_file_location] - optional - The location of the ini file to load
+   * @param string $ini_file_location
    */
   public function __construct($ini_file_location = null)
   {
@@ -108,7 +109,7 @@ class Google_Config
    * Set configuration specific to a given class.
    * $config->setClassConfig('Google_Cache_File',
    *   array('directory' => '/tmp/cache'));
-   * @param $class The class name for the configuration
+   * @param string $class The class name for the configuration
    * @param $config string key or an array of configuration values
    * @param $value optional - if $config is a key, the value
    */
@@ -124,6 +125,9 @@ class Google_Config
     }
   }
 
+  /**
+   * @param string $class
+   */
   public function getClassConfig($class, $key = null)
   {
     if (!isset($this->configuration['classes'][$class])) {
@@ -157,7 +161,7 @@ class Google_Config
   /**
    * Set the auth class.
    *
-   * @param $class the class name to set
+   * @param string $class the class name to set
    */
   public function setAuthClass($class)
   {
@@ -173,7 +177,7 @@ class Google_Config
   /**
    * Set the IO class.
    *
-   * @param $class the class name to set
+   * @param string $class the class name to set
    */
   public function setIoClass($class)
   {
@@ -189,7 +193,7 @@ class Google_Config
   /**
    * Set the cache class.
    *
-   * @param $class the class name to set
+   * @param string $class the class name to set
    */
   public function setCacheClass($class)
   {
@@ -231,6 +235,7 @@ class Google_Config
   /**
    * Set the client ID for the auth class.
    * @param $key string - the API console client ID
+   * @param string $clientId
    */
   public function setClientId($clientId)
   {
@@ -240,6 +245,7 @@ class Google_Config
   /**
    * Set the client secret for the auth class.
    * @param $key string - the API console client secret
+   * @param string $secret
    */
   public function setClientSecret($secret)
   {
@@ -250,6 +256,7 @@ class Google_Config
    * Set the redirect uri for the auth class. Note that if using the
    * Javascript based sign in flow, this should be the string 'postmessage'.
    * @param $key string - the URI that users should be redirected to
+   * @param string $uri
    */
   public function setRedirectUri($uri)
   {
@@ -267,7 +274,7 @@ class Google_Config
 
   /**
    * Set the the access type requested (offline or online.)
-   * @param $access string - the access type
+   * @param string $access string - the access type
    */
   public function setAccessType($access)
   {
@@ -276,7 +283,7 @@ class Google_Config
 
   /**
    * Set when to show the approval prompt (auto or force)
-   * @param $approval string - the approval request
+   * @param string $approval string - the approval request
    */
   public function setApprovalPrompt($approval)
   {
@@ -285,7 +292,7 @@ class Google_Config
 
   /**
    * Set the login hint (email address or sub identifier)
-   * @param $hint string
+   * @param string $hint string
    */
   public function setLoginHint($hint)
   {
@@ -295,7 +302,7 @@ class Google_Config
   /**
    * Set the developer key for the auth class. Note that this is separate value
    * from the client ID - if it looks like a URL, its a client ID!
-   * @param $key string - the API console developer key
+   * @param string $key string - the API console developer key
    */
   public function setDeveloperKey($key)
   {
@@ -312,7 +319,7 @@ class Google_Config
 
   /**
    * Set the auth configuration for the current auth class.
-   * @param $key - the key to set
+   * @param string $key - the key to set
    * @param $value - the parameter value
    */
   private function setAuthConfig($key, $value)

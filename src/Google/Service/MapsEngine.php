@@ -1163,7 +1163,7 @@ class Google_Service_MapsEngine_Layers_Resource extends Google_Service_Resource
   /**
    * Create a layer asset. (layers.create)
    *
-   * @param Google_Layer $postBody
+   * @param Google_Service_MapsEngine_Layer $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool process
@@ -1256,7 +1256,7 @@ class Google_Service_MapsEngine_Layers_Resource extends Google_Service_Resource
    *
    * @param string $id
    * The ID of the layer.
-   * @param Google_Layer $postBody
+   * @param Google_Service_MapsEngine_Layer $postBody
    * @param array $optParams Optional parameters.
    */
   public function patch($id, Google_Service_MapsEngine_Layer $postBody, $optParams = array())
@@ -1357,7 +1357,7 @@ class Google_Service_MapsEngine_Maps_Resource extends Google_Service_Resource
   /**
    * Create a map asset. (maps.create)
    *
-   * @param Google_Map $postBody
+   * @param Google_Service_MapsEngine_Map $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_MapsEngine_Map
    */
@@ -1446,7 +1446,7 @@ class Google_Service_MapsEngine_Maps_Resource extends Google_Service_Resource
    *
    * @param string $id
    * The ID of the map.
-   * @param Google_Map $postBody
+   * @param Google_Service_MapsEngine_Map $postBody
    * @param array $optParams Optional parameters.
    */
   public function patch($id, Google_Service_MapsEngine_Map $postBody, $optParams = array())
@@ -1539,7 +1539,7 @@ class Google_Service_MapsEngine_RasterCollections_Resource extends Google_Servic
   /**
    * Create a raster collection asset. (rasterCollections.create)
    *
-   * @param Google_RasterCollection $postBody
+   * @param Google_Service_MapsEngine_RasterCollection $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_MapsEngine_RasterCollection
    */
@@ -1627,7 +1627,7 @@ class Google_Service_MapsEngine_RasterCollections_Resource extends Google_Servic
    *
    * @param string $id
    * The ID of the raster collection.
-   * @param Google_RasterCollection $postBody
+   * @param Google_Service_MapsEngine_RasterCollection $postBody
    * @param array $optParams Optional parameters.
    */
   public function patch($id, Google_Service_MapsEngine_RasterCollection $postBody, $optParams = array())
@@ -1705,7 +1705,7 @@ class Google_Service_MapsEngine_RasterCollectionsRasters_Resource extends Google
    *
    * @param string $id
    * The ID of the raster collection to which these rasters belong.
-   * @param Google_RasterCollectionsRasterBatchDeleteRequest $postBody
+   * @param Google_Service_MapsEngine_RasterCollectionsRasterBatchDeleteRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_MapsEngine_RasterCollectionsRastersBatchDeleteResponse
    */
@@ -1724,7 +1724,7 @@ class Google_Service_MapsEngine_RasterCollectionsRasters_Resource extends Google
    *
    * @param string $id
    * The ID of the raster collection to which these rasters belong.
-   * @param Google_RasterCollectionsRastersBatchInsertRequest $postBody
+   * @param Google_Service_MapsEngine_RasterCollectionsRastersBatchInsertRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_MapsEngine_RasterCollectionsRastersBatchInsertResponse
    */
@@ -1823,7 +1823,7 @@ class Google_Service_MapsEngine_Rasters_Resource extends Google_Service_Resource
    *
    * @param string $id
    * The ID of the raster.
-   * @param Google_Raster $postBody
+   * @param Google_Service_MapsEngine_Raster $postBody
    * @param array $optParams Optional parameters.
    */
   public function patch($id, Google_Service_MapsEngine_Raster $postBody, $optParams = array())
@@ -1835,7 +1835,7 @@ class Google_Service_MapsEngine_Rasters_Resource extends Google_Service_Resource
   /**
    * Create a skeleton raster asset for upload. (rasters.upload)
    *
-   * @param Google_Raster $postBody
+   * @param Google_Service_MapsEngine_Raster $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_MapsEngine_Raster
    */
@@ -1922,7 +1922,7 @@ class Google_Service_MapsEngine_Tables_Resource extends Google_Service_Resource
   /**
    * Create a table asset. (tables.create)
    *
-   * @param Google_Table $postBody
+   * @param Google_Service_MapsEngine_Table $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_MapsEngine_Table
    */
@@ -2012,7 +2012,7 @@ class Google_Service_MapsEngine_Tables_Resource extends Google_Service_Resource
    *
    * @param string $id
    * The ID of the table.
-   * @param Google_Table $postBody
+   * @param Google_Service_MapsEngine_Table $postBody
    * @param array $optParams Optional parameters.
    */
   public function patch($id, Google_Service_MapsEngine_Table $postBody, $optParams = array())
@@ -2028,7 +2028,7 @@ class Google_Service_MapsEngine_Tables_Resource extends Google_Service_Resource
    * endpoint. See Table Upload in the Developer's Guide or Table.files: insert in
    * the reference documentation for more information. (tables.upload)
    *
-   * @param Google_Table $postBody
+   * @param Google_Service_MapsEngine_Table $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_MapsEngine_Table
    */
@@ -2056,7 +2056,7 @@ class Google_Service_MapsEngine_TablesFeatures_Resource extends Google_Service_R
    *
    * @param string $id
    * The ID of the table that contains the features to be deleted.
-   * @param Google_FeaturesBatchDeleteRequest $postBody
+   * @param Google_Service_MapsEngine_FeaturesBatchDeleteRequest $postBody
    * @param array $optParams Optional parameters.
    */
   public function batchDelete($id, Google_Service_MapsEngine_FeaturesBatchDeleteRequest $postBody, $optParams = array())
@@ -2080,7 +2080,7 @@ class Google_Service_MapsEngine_TablesFeatures_Resource extends Google_Service_R
    *
    * @param string $id
    * The ID of the table to append the features to.
-   * @param Google_FeaturesBatchInsertRequest $postBody
+   * @param Google_Service_MapsEngine_FeaturesBatchInsertRequest $postBody
    * @param array $optParams Optional parameters.
    */
   public function batchInsert($id, Google_Service_MapsEngine_FeaturesBatchInsertRequest $postBody, $optParams = array())
@@ -2111,7 +2111,7 @@ class Google_Service_MapsEngine_TablesFeatures_Resource extends Google_Service_R
    *
    * @param string $id
    * The ID of the table containing the features to be patched.
-   * @param Google_FeaturesBatchPatchRequest $postBody
+   * @param Google_Service_MapsEngine_FeaturesBatchPatchRequest $postBody
    * @param array $optParams Optional parameters.
    */
   public function batchPatch($id, Google_Service_MapsEngine_FeaturesBatchPatchRequest $postBody, $optParams = array())

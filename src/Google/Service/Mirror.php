@@ -398,7 +398,7 @@ class Google_Service_Mirror_Accounts_Resource extends Google_Service_Resource
    * Account type to be passed to Android Account Manager.
    * @param string $accountName
    * The name of the account to be passed to the Android Account Manager.
-   * @param Google_Account $postBody
+   * @param Google_Service_Mirror_Account $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Mirror_Account
    */
@@ -451,7 +451,7 @@ class Google_Service_Mirror_Contacts_Resource extends Google_Service_Resource
   /**
    * Inserts a new contact. (contacts.insert)
    *
-   * @param Google_Contact $postBody
+   * @param Google_Service_Mirror_Contact $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Mirror_Contact
    */
@@ -480,7 +480,7 @@ class Google_Service_Mirror_Contacts_Resource extends Google_Service_Resource
    *
    * @param string $id
    * The ID of the contact.
-   * @param Google_Contact $postBody
+   * @param Google_Service_Mirror_Contact $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Mirror_Contact
    */
@@ -495,7 +495,7 @@ class Google_Service_Mirror_Contacts_Resource extends Google_Service_Resource
    *
    * @param string $id
    * The ID of the contact.
-   * @param Google_Contact $postBody
+   * @param Google_Service_Mirror_Contact $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Mirror_Contact
    */
@@ -602,7 +602,7 @@ class Google_Service_Mirror_Subscriptions_Resource extends Google_Service_Resour
   /**
    * Creates a new subscription. (subscriptions.insert)
    *
-   * @param Google_Subscription $postBody
+   * @param Google_Service_Mirror_Subscription $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Mirror_Subscription
    */
@@ -630,7 +630,7 @@ class Google_Service_Mirror_Subscriptions_Resource extends Google_Service_Resour
    *
    * @param string $id
    * The ID of the subscription.
-   * @param Google_Subscription $postBody
+   * @param Google_Service_Mirror_Subscription $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Mirror_Subscription
    */
@@ -683,7 +683,7 @@ class Google_Service_Mirror_Timeline_Resource extends Google_Service_Resource
   /**
    * Inserts a new item into the timeline. (timeline.insert)
    *
-   * @param Google_TimelineItem $postBody
+   * @param Google_Service_Mirror_TimelineItem $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Mirror_TimelineItem
    */
@@ -727,7 +727,7 @@ class Google_Service_Mirror_Timeline_Resource extends Google_Service_Resource
    *
    * @param string $id
    * The ID of the timeline item.
-   * @param Google_TimelineItem $postBody
+   * @param Google_Service_Mirror_TimelineItem $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Mirror_TimelineItem
    */
@@ -742,7 +742,7 @@ class Google_Service_Mirror_Timeline_Resource extends Google_Service_Resource
    *
    * @param string $id
    * The ID of the timeline item.
-   * @param Google_TimelineItem $postBody
+   * @param Google_Service_Mirror_TimelineItem $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Mirror_TimelineItem
    */

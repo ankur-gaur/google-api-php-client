@@ -602,7 +602,7 @@ class Google_Service_SQLAdmin_Instances_Resource extends Google_Service_Resource
    *
    * @param string $project
    * Project ID of the source as well as the clone Cloud SQL instance.
-   * @param Google_InstancesCloneRequest $postBody
+   * @param Google_Service_SQLAdmin_InstancesCloneRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_SQLAdmin_InstancesCloneResponse
    */
@@ -636,7 +636,7 @@ class Google_Service_SQLAdmin_Instances_Resource extends Google_Service_Resource
    * Project ID of the project that contains the instance to be exported.
    * @param string $instance
    * Cloud SQL instance ID. This does not include the project ID.
-   * @param Google_InstancesExportRequest $postBody
+   * @param Google_Service_SQLAdmin_InstancesExportRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_SQLAdmin_InstancesExportResponse
    */
@@ -671,7 +671,7 @@ class Google_Service_SQLAdmin_Instances_Resource extends Google_Service_Resource
    * Project ID of the project that contains the instance.
    * @param string $instance
    * Cloud SQL instance ID. This does not include the project ID.
-   * @param Google_InstancesImportRequest $postBody
+   * @param Google_Service_SQLAdmin_InstancesImportRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_SQLAdmin_InstancesImportResponse
    */
@@ -686,7 +686,7 @@ class Google_Service_SQLAdmin_Instances_Resource extends Google_Service_Resource
    *
    * @param string $project
    * Project ID of the project to which the newly created Cloud SQL instances should belong.
-   * @param Google_DatabaseInstance $postBody
+   * @param Google_Service_SQLAdmin_DatabaseInstance $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_SQLAdmin_InstancesInsertResponse
    */
@@ -726,7 +726,7 @@ class Google_Service_SQLAdmin_Instances_Resource extends Google_Service_Resource
    * Project ID of the project that contains the instance.
    * @param string $instance
    * Cloud SQL instance ID. This does not include the project ID.
-   * @param Google_DatabaseInstance $postBody
+   * @param Google_Service_SQLAdmin_DatabaseInstance $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_SQLAdmin_InstancesUpdateResponse
    */
@@ -799,7 +799,7 @@ class Google_Service_SQLAdmin_Instances_Resource extends Google_Service_Resource
    * Project ID of the project that contains the instance.
    * @param string $instance
    * Cloud SQL instance ID. This does not include the project ID.
-   * @param Google_InstanceSetRootPasswordRequest $postBody
+   * @param Google_Service_SQLAdmin_InstanceSetRootPasswordRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_SQLAdmin_InstancesSetRootPasswordResponse
    */
@@ -818,7 +818,7 @@ class Google_Service_SQLAdmin_Instances_Resource extends Google_Service_Resource
    * Project ID of the project that contains the instance.
    * @param string $instance
    * Cloud SQL instance ID. This does not include the project ID.
-   * @param Google_DatabaseInstance $postBody
+   * @param Google_Service_SQLAdmin_DatabaseInstance $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_SQLAdmin_InstancesUpdateResponse
    */
@@ -944,7 +944,7 @@ class Google_Service_SQLAdmin_SslCerts_Resource extends Google_Service_Resource
    * Project ID of the project to which the newly created Cloud SQL instances should belong.
    * @param string $instance
    * Cloud SQL instance ID. This does not include the project ID.
-   * @param Google_SslCertsInsertRequest $postBody
+   * @param Google_Service_SQLAdmin_SslCertsInsertRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_SQLAdmin_SslCertsInsertResponse
    */

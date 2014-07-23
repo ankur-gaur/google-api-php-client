@@ -475,7 +475,7 @@ class Google_Service_PlusDomains_Activities_Resource extends Google_Service_Reso
    * @param string $userId
    * The ID of the user to create the activity on behalf of. Its value should be "me", to indicate
     * the authenticated user.
-   * @param Google_Activity $postBody
+   * @param Google_Service_PlusDomains_Activity $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool preview
@@ -604,7 +604,7 @@ class Google_Service_PlusDomains_Circles_Resource extends Google_Service_Resourc
    * @param string $userId
    * The ID of the user to create the circle on behalf of. The value "me" can be used to indicate the
     * authenticated user.
-   * @param Google_Circle $postBody
+   * @param Google_Service_PlusDomains_Circle $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_PlusDomains_Circle
    */
@@ -642,7 +642,7 @@ class Google_Service_PlusDomains_Circles_Resource extends Google_Service_Resourc
    *
    * @param string $circleId
    * The ID of the circle to update.
-   * @param Google_Circle $postBody
+   * @param Google_Service_PlusDomains_Circle $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_PlusDomains_Circle
    */
@@ -688,7 +688,7 @@ class Google_Service_PlusDomains_Circles_Resource extends Google_Service_Resourc
    *
    * @param string $circleId
    * The ID of the circle to update.
-   * @param Google_Circle $postBody
+   * @param Google_Service_PlusDomains_Circle $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_PlusDomains_Circle
    */
@@ -730,7 +730,7 @@ class Google_Service_PlusDomains_Comments_Resource extends Google_Service_Resour
    *
    * @param string $activityId
    * The ID of the activity to reply to.
-   * @param Google_Comment $postBody
+   * @param Google_Service_PlusDomains_Comment $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_PlusDomains_Comment
    */
@@ -786,7 +786,7 @@ class Google_Service_PlusDomains_Media_Resource extends Google_Service_Resource
    * The ID of the user to create the activity on behalf of.
    * @param string $collection
    *
-   * @param Google_Media $postBody
+   * @param Google_Service_PlusDomains_Media $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_PlusDomains_Media
    */

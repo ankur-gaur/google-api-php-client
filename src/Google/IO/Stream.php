@@ -43,7 +43,7 @@ class Google_IO_Stream extends Google_IO_Abstract
   /**
    * Execute an HTTP Request
    *
-   * @param Google_HttpRequest $request the http request to be executed
+   * @param Google_Http_Request $request the http request to be executed
    * @return Google_HttpRequest http request with the response http code,
    * response headers and response body filled in
    * @throws Google_IO_Exception on curl or IO error

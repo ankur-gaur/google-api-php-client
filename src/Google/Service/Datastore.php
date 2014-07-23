@@ -142,7 +142,7 @@ class Google_Service_Datastore_Datasets_Resource extends Google_Service_Resource
    *
    * @param string $datasetId
    * Identifies the dataset.
-   * @param Google_AllocateIdsRequest $postBody
+   * @param Google_Service_Datastore_AllocateIdsRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Datastore_AllocateIdsResponse
    */
@@ -157,7 +157,7 @@ class Google_Service_Datastore_Datasets_Resource extends Google_Service_Resource
    *
    * @param string $datasetId
    * Identifies the dataset.
-   * @param Google_BeginTransactionRequest $postBody
+   * @param Google_Service_Datastore_BeginTransactionRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Datastore_BeginTransactionResponse
    */
@@ -173,7 +173,7 @@ class Google_Service_Datastore_Datasets_Resource extends Google_Service_Resource
    *
    * @param string $datasetId
    * Identifies the dataset.
-   * @param Google_CommitRequest $postBody
+   * @param Google_Service_Datastore_CommitRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Datastore_CommitResponse
    */
@@ -188,7 +188,7 @@ class Google_Service_Datastore_Datasets_Resource extends Google_Service_Resource
    *
    * @param string $datasetId
    * Identifies the dataset.
-   * @param Google_LookupRequest $postBody
+   * @param Google_Service_Datastore_LookupRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Datastore_LookupResponse
    */
@@ -203,7 +203,7 @@ class Google_Service_Datastore_Datasets_Resource extends Google_Service_Resource
    *
    * @param string $datasetId
    * Identifies the dataset.
-   * @param Google_RollbackRequest $postBody
+   * @param Google_Service_Datastore_RollbackRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Datastore_RollbackResponse
    */
@@ -218,7 +218,7 @@ class Google_Service_Datastore_Datasets_Resource extends Google_Service_Resource
    *
    * @param string $datasetId
    * Identifies the dataset.
-   * @param Google_RunQueryRequest $postBody
+   * @param Google_Service_Datastore_RunQueryRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Datastore_RunQueryResponse
    */

@@ -278,7 +278,7 @@ class Google_Service_Reseller_Customers_Resource extends Google_Service_Resource
   /**
    * Creates a customer resource if one does not already exist. (customers.insert)
    *
-   * @param Google_Customer $postBody
+   * @param Google_Service_Reseller_Customer $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string customerAuthToken
@@ -298,7 +298,7 @@ class Google_Service_Reseller_Customers_Resource extends Google_Service_Resource
    *
    * @param string $customerId
    * Id of the Customer
-   * @param Google_Customer $postBody
+   * @param Google_Service_Reseller_Customer $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Reseller_Customer
    */
@@ -314,7 +314,7 @@ class Google_Service_Reseller_Customers_Resource extends Google_Service_Resource
    *
    * @param string $customerId
    * Id of the Customer
-   * @param Google_Customer $postBody
+   * @param Google_Service_Reseller_Customer $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Reseller_Customer
    */
@@ -344,7 +344,7 @@ class Google_Service_Reseller_Subscriptions_Resource extends Google_Service_Reso
    * Id of the Customer
    * @param string $subscriptionId
    * Id of the subscription, which is unique for a customer
-   * @param Google_ChangePlanRequest $postBody
+   * @param Google_Service_Reseller_ChangePlanRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Reseller_Subscription
    */
@@ -362,7 +362,7 @@ class Google_Service_Reseller_Subscriptions_Resource extends Google_Service_Reso
    * Id of the Customer
    * @param string $subscriptionId
    * Id of the subscription, which is unique for a customer
-   * @param Google_RenewalSettings $postBody
+   * @param Google_Service_Reseller_RenewalSettings $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Reseller_Subscription
    */
@@ -379,7 +379,7 @@ class Google_Service_Reseller_Subscriptions_Resource extends Google_Service_Reso
    * Id of the Customer
    * @param string $subscriptionId
    * Id of the subscription, which is unique for a customer
-   * @param Google_Seats $postBody
+   * @param Google_Service_Reseller_Seats $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Reseller_Subscription
    */
@@ -427,7 +427,7 @@ class Google_Service_Reseller_Subscriptions_Resource extends Google_Service_Reso
    *
    * @param string $customerId
    * Id of the Customer
-   * @param Google_Subscription $postBody
+   * @param Google_Service_Reseller_Subscription $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string customerAuthToken

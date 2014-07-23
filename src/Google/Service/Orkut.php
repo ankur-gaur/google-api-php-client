@@ -906,7 +906,7 @@ class Google_Service_Orkut_ActivityVisibility_Resource extends Google_Service_Re
    *
    * @param string $activityId
    * ID of the activity.
-   * @param Google_Visibility $postBody
+   * @param Google_Service_Orkut_Visibility $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Orkut_Visibility
    */
@@ -921,7 +921,7 @@ class Google_Service_Orkut_ActivityVisibility_Resource extends Google_Service_Re
    *
    * @param string $activityId
    * ID of the activity.
-   * @param Google_Visibility $postBody
+   * @param Google_Service_Orkut_Visibility $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Orkut_Visibility
    */
@@ -1022,7 +1022,7 @@ class Google_Service_Orkut_Comments_Resource extends Google_Service_Resource
    *
    * @param string $activityId
    * The ID of the activity to contain the new comment.
-   * @param Google_Comment $postBody
+   * @param Google_Service_Orkut_Comment $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Orkut_Comment
    */
@@ -1280,7 +1280,7 @@ class Google_Service_Orkut_CommunityMessages_Resource extends Google_Service_Res
    * The ID of the community the message should be added to.
    * @param string $topicId
    * The ID of the topic the message should be added to.
-   * @param Google_CommunityMessage $postBody
+   * @param Google_Service_Orkut_CommunityMessage $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Orkut_CommunityMessage
    */
@@ -1334,7 +1334,7 @@ class Google_Service_Orkut_CommunityPollComments_Resource extends Google_Service
    * The ID of the community whose poll is being commented.
    * @param string $pollId
    * The ID of the poll being commented.
-   * @param Google_CommunityPollComment $postBody
+   * @param Google_Service_Orkut_CommunityPollComment $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Orkut_CommunityPollComment
    */
@@ -1388,7 +1388,7 @@ class Google_Service_Orkut_CommunityPollVotes_Resource extends Google_Service_Re
    * The ID of the community whose poll is being voted.
    * @param string $pollId
    * The ID of the poll being voted.
-   * @param Google_CommunityPollVote $postBody
+   * @param Google_Service_Orkut_CommunityPollVote $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Orkut_CommunityPollVote
    */
@@ -1534,7 +1534,7 @@ class Google_Service_Orkut_CommunityTopics_Resource extends Google_Service_Resou
    *
    * @param int $communityId
    * The ID of the community the topic should be added to.
-   * @param Google_CommunityTopic $postBody
+   * @param Google_Service_Orkut_CommunityTopic $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool isShout
@@ -1611,7 +1611,7 @@ class Google_Service_Orkut_Scraps_Resource extends Google_Service_Resource
   /**
    * Creates a new scrap. (scraps.insert)
    *
-   * @param Google_Activity $postBody
+   * @param Google_Service_Orkut_Activity $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Orkut_Activity
    */

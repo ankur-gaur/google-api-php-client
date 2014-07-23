@@ -503,7 +503,7 @@ class Google_Service_Coordinate_Jobs_Resource extends Google_Service_Resource
    * The longitude coordinate of this job's location.
    * @param string $title
    * Job title
-   * @param Google_Job $postBody
+   * @param Google_Service_Coordinate_Job $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string customerName
@@ -553,7 +553,7 @@ class Google_Service_Coordinate_Jobs_Resource extends Google_Service_Resource
    * Team ID
    * @param string $jobId
    * Job number
-   * @param Google_Job $postBody
+   * @param Google_Service_Coordinate_Job $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string customerName
@@ -592,7 +592,7 @@ class Google_Service_Coordinate_Jobs_Resource extends Google_Service_Resource
    * Team ID
    * @param string $jobId
    * Job number
-   * @param Google_Job $postBody
+   * @param Google_Service_Coordinate_Job $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string customerName
@@ -696,7 +696,7 @@ class Google_Service_Coordinate_Schedule_Resource extends Google_Service_Resourc
    * Team ID
    * @param string $jobId
    * Job number
-   * @param Google_Schedule $postBody
+   * @param Google_Service_Coordinate_Schedule $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool allDay
@@ -723,7 +723,7 @@ class Google_Service_Coordinate_Schedule_Resource extends Google_Service_Resourc
    * Team ID
    * @param string $jobId
    * Job number
-   * @param Google_Schedule $postBody
+   * @param Google_Service_Coordinate_Schedule $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool allDay

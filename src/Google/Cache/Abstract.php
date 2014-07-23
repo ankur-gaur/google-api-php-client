@@ -32,6 +32,7 @@ abstract class Google_Cache_Abstract
    * @param String $key The key who's data to retrieve
    * @param boolean|int $expiration Expiration time in seconds
    *
+   * @return string
    */
   abstract public function get($key, $expiration = false);
 

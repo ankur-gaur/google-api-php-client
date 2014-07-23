@@ -978,7 +978,7 @@ class Google_Service_Storage_BucketAccessControls_Resource extends Google_Servic
    *
    * @param string $bucket
    * Name of a bucket.
-   * @param Google_BucketAccessControl $postBody
+   * @param Google_Service_Storage_BucketAccessControl $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Storage_BucketAccessControl
    */
@@ -1012,7 +1012,7 @@ class Google_Service_Storage_BucketAccessControls_Resource extends Google_Servic
    * @param string $entity
    * The entity holding the permission. Can be user-userId, user-emailAddress, group-groupId, group-
     * emailAddress, allUsers, or allAuthenticatedUsers.
-   * @param Google_BucketAccessControl $postBody
+   * @param Google_Service_Storage_BucketAccessControl $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Storage_BucketAccessControl
    */
@@ -1030,7 +1030,7 @@ class Google_Service_Storage_BucketAccessControls_Resource extends Google_Servic
    * @param string $entity
    * The entity holding the permission. Can be user-userId, user-emailAddress, group-groupId, group-
     * emailAddress, allUsers, or allAuthenticatedUsers.
-   * @param Google_BucketAccessControl $postBody
+   * @param Google_Service_Storage_BucketAccessControl $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Storage_BucketAccessControl
    */
@@ -1099,7 +1099,7 @@ class Google_Service_Storage_Buckets_Resource extends Google_Service_Resource
    *
    * @param string $project
    * A valid API project identifier.
-   * @param Google_Bucket $postBody
+   * @param Google_Service_Storage_Bucket $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string predefinedAcl
@@ -1141,7 +1141,7 @@ class Google_Service_Storage_Buckets_Resource extends Google_Service_Resource
    *
    * @param string $bucket
    * Name of a bucket.
-   * @param Google_Bucket $postBody
+   * @param Google_Service_Storage_Bucket $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string ifMetagenerationMatch
@@ -1167,7 +1167,7 @@ class Google_Service_Storage_Buckets_Resource extends Google_Service_Resource
    *
    * @param string $bucket
    * Name of a bucket.
-   * @param Google_Bucket $postBody
+   * @param Google_Service_Storage_Bucket $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string ifMetagenerationMatch
@@ -1204,7 +1204,7 @@ class Google_Service_Storage_Channels_Resource extends Google_Service_Resource
   /**
    * Stop watching resources through this channel (channels.stop)
    *
-   * @param Google_Channel $postBody
+   * @param Google_Service_Storage_Channel $postBody
    * @param array $optParams Optional parameters.
    */
   public function stop(Google_Service_Storage_Channel $postBody, $optParams = array())
@@ -1267,7 +1267,7 @@ class Google_Service_Storage_DefaultObjectAccessControls_Resource extends Google
    *
    * @param string $bucket
    * Name of a bucket.
-   * @param Google_ObjectAccessControl $postBody
+   * @param Google_Service_Storage_ObjectAccessControl $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Storage_ObjectAccessControl
    */
@@ -1308,7 +1308,7 @@ class Google_Service_Storage_DefaultObjectAccessControls_Resource extends Google
    * @param string $entity
    * The entity holding the permission. Can be user-userId, user-emailAddress, group-groupId, group-
     * emailAddress, allUsers, or allAuthenticatedUsers.
-   * @param Google_ObjectAccessControl $postBody
+   * @param Google_Service_Storage_ObjectAccessControl $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Storage_ObjectAccessControl
    */
@@ -1327,7 +1327,7 @@ class Google_Service_Storage_DefaultObjectAccessControls_Resource extends Google
    * @param string $entity
    * The entity holding the permission. Can be user-userId, user-emailAddress, group-groupId, group-
     * emailAddress, allUsers, or allAuthenticatedUsers.
-   * @param Google_ObjectAccessControl $postBody
+   * @param Google_Service_Storage_ObjectAccessControl $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Storage_ObjectAccessControl
    */
@@ -1405,7 +1405,7 @@ class Google_Service_Storage_ObjectAccessControls_Resource extends Google_Servic
    * Name of a bucket.
    * @param string $object
    * Name of the object.
-   * @param Google_ObjectAccessControl $postBody
+   * @param Google_Service_Storage_ObjectAccessControl $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string generation
@@ -1451,7 +1451,7 @@ class Google_Service_Storage_ObjectAccessControls_Resource extends Google_Servic
    * @param string $entity
    * The entity holding the permission. Can be user-userId, user-emailAddress, group-groupId, group-
     * emailAddress, allUsers, or allAuthenticatedUsers.
-   * @param Google_ObjectAccessControl $postBody
+   * @param Google_Service_Storage_ObjectAccessControl $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string generation
@@ -1475,7 +1475,7 @@ class Google_Service_Storage_ObjectAccessControls_Resource extends Google_Servic
    * @param string $entity
    * The entity holding the permission. Can be user-userId, user-emailAddress, group-groupId, group-
     * emailAddress, allUsers, or allAuthenticatedUsers.
-   * @param Google_ObjectAccessControl $postBody
+   * @param Google_Service_Storage_ObjectAccessControl $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string generation
@@ -1510,7 +1510,7 @@ class Google_Service_Storage_Objects_Resource extends Google_Service_Resource
    * Name of the bucket in which to store the new object.
    * @param string $destinationObject
    * Name of the new object.
-   * @param Google_ComposeRequest $postBody
+   * @param Google_Service_Storage_ComposeRequest $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string ifGenerationMatch
@@ -1543,7 +1543,7 @@ class Google_Service_Storage_Objects_Resource extends Google_Service_Resource
    * @param string $destinationObject
    * Name of the new object. Required when the object metadata is not otherwise provided. Overrides
     * the object metadata's name value, if any.
-   * @param Google_StorageObject $postBody
+   * @param Google_Service_Storage_StorageObject $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string ifSourceGenerationNotMatch
@@ -1658,7 +1658,7 @@ class Google_Service_Storage_Objects_Resource extends Google_Service_Resource
    * @param string $bucket
    * Name of the bucket in which to store the new object. Overrides the provided object metadata's
     * bucket value, if any.
-   * @param Google_StorageObject $postBody
+   * @param Google_Service_Storage_StorageObject $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string predefinedAcl
@@ -1733,7 +1733,7 @@ class Google_Service_Storage_Objects_Resource extends Google_Service_Resource
    * Name of the bucket in which the object resides.
    * @param string $object
    * Name of the object.
-   * @param Google_StorageObject $postBody
+   * @param Google_Service_Storage_StorageObject $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string predefinedAcl
@@ -1770,7 +1770,7 @@ class Google_Service_Storage_Objects_Resource extends Google_Service_Resource
    * Name of the bucket in which the object resides.
    * @param string $object
    * Name of the object.
-   * @param Google_StorageObject $postBody
+   * @param Google_Service_Storage_StorageObject $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string predefinedAcl
@@ -1805,7 +1805,7 @@ class Google_Service_Storage_Objects_Resource extends Google_Service_Resource
    *
    * @param string $bucket
    * Name of the bucket in which to look for objects.
-   * @param Google_Channel $postBody
+   * @param Google_Service_Storage_Channel $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string projection

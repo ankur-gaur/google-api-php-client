@@ -57,8 +57,8 @@ class Google_Verifier_Pem extends Google_Verifier_Abstract
    * Verifies the signature on data.
    *
    * Returns true if the signature is valid, false otherwise.
-   * @param $data
-   * @param $signature
+   * @param string $data
+   * @param string $signature
    * @throws Google_Auth_Exception
    * @return bool
    */

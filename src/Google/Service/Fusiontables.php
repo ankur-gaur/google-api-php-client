@@ -583,7 +583,7 @@ class Google_Service_Fusiontables_Column_Resource extends Google_Service_Resourc
    *
    * @param string $tableId
    * Table for which a new column is being added.
-   * @param Google_Column $postBody
+   * @param Google_Service_Fusiontables_Column $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Fusiontables_Column
    */
@@ -620,7 +620,7 @@ class Google_Service_Fusiontables_Column_Resource extends Google_Service_Resourc
    * Table for which the column is being updated.
    * @param string $columnId
    * Name or identifier for the column that is being updated.
-   * @param Google_Column $postBody
+   * @param Google_Service_Fusiontables_Column $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Fusiontables_Column
    */
@@ -637,7 +637,7 @@ class Google_Service_Fusiontables_Column_Resource extends Google_Service_Resourc
    * Table for which the column is being updated.
    * @param string $columnId
    * Name or identifier for the column that is being updated.
-   * @param Google_Column $postBody
+   * @param Google_Service_Fusiontables_Column $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Fusiontables_Column
    */
@@ -750,7 +750,7 @@ class Google_Service_Fusiontables_Style_Resource extends Google_Service_Resource
    *
    * @param string $tableId
    * Table for which a new style is being added
-   * @param Google_StyleSetting $postBody
+   * @param Google_Service_Fusiontables_StyleSetting $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Fusiontables_StyleSetting
    */
@@ -787,7 +787,7 @@ class Google_Service_Fusiontables_Style_Resource extends Google_Service_Resource
    * Table whose style is being updated.
    * @param int $styleId
    * Identifier (within a table) for the style being updated.
-   * @param Google_StyleSetting $postBody
+   * @param Google_Service_Fusiontables_StyleSetting $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Fusiontables_StyleSetting
    */
@@ -804,7 +804,7 @@ class Google_Service_Fusiontables_Style_Resource extends Google_Service_Resource
    * Table whose style is being updated.
    * @param int $styleId
    * Identifier (within a table) for the style being updated.
-   * @param Google_StyleSetting $postBody
+   * @param Google_Service_Fusiontables_StyleSetting $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Fusiontables_StyleSetting
    */
@@ -928,7 +928,7 @@ class Google_Service_Fusiontables_Table_Resource extends Google_Service_Resource
   /**
    * Creates a new table. (table.insert)
    *
-   * @param Google_Table $postBody
+   * @param Google_Service_Fusiontables_Table $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Fusiontables_Table
    */
@@ -962,7 +962,7 @@ class Google_Service_Fusiontables_Table_Resource extends Google_Service_Resource
    *
    * @param string $tableId
    * ID of the table that is being updated.
-   * @param Google_Table $postBody
+   * @param Google_Service_Fusiontables_Table $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool replaceViewDefinition
@@ -982,7 +982,7 @@ class Google_Service_Fusiontables_Table_Resource extends Google_Service_Resource
    *
    * @param string $tableId
    * ID of the table that is being updated.
-   * @param Google_Table $postBody
+   * @param Google_Service_Fusiontables_Table $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool replaceViewDefinition
@@ -1045,7 +1045,7 @@ class Google_Service_Fusiontables_Template_Resource extends Google_Service_Resou
    *
    * @param string $tableId
    * Table for which a new template is being created
-   * @param Google_Template $postBody
+   * @param Google_Service_Fusiontables_Template $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Fusiontables_Template
    */
@@ -1082,7 +1082,7 @@ class Google_Service_Fusiontables_Template_Resource extends Google_Service_Resou
    * Table to which the updated template belongs
    * @param int $templateId
    * Identifier for the template that is being updated
-   * @param Google_Template $postBody
+   * @param Google_Service_Fusiontables_Template $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Fusiontables_Template
    */
@@ -1099,7 +1099,7 @@ class Google_Service_Fusiontables_Template_Resource extends Google_Service_Resou
    * Table to which the updated template belongs
    * @param int $templateId
    * Identifier for the template that is being updated
-   * @param Google_Template $postBody
+   * @param Google_Service_Fusiontables_Template $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Fusiontables_Template
    */

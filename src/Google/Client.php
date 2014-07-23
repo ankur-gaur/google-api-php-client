@@ -169,7 +169,7 @@ class Google_Client
   }
 
   /**
-   * @return array
+   * @return string
    * @visible For Testing
    */
   public function prepareScopes()
@@ -210,7 +210,6 @@ class Google_Client
 
   /**
    * Set the IO object
-   * @param Google_Io_Abstract $auth
    */
   public function setIo(Google_Io_Abstract $io)
   {
@@ -220,7 +219,6 @@ class Google_Client
 
   /**
    * Set the Cache object
-   * @param Google_Cache_Abstract $auth
    */
   public function setCache(Google_Cache_Abstract $cache)
   {
@@ -406,7 +404,7 @@ class Google_Client
    * @param $required_audience the expected consumer of the token
    * @param [$issuer] the expected issues, defaults to Google
    * @param [$max_expiry] the max lifetime of a token, defaults to MAX_TOKEN_LIFETIME_SECS
-   * @return token information if valid, false if not
+   * @return Google_Auth_LoginTicket information if valid, false if not
    */
   public function verifySignedJwt($id_token, $cert_location, $audience, $issuer, $max_expiry = null)
   {
@@ -561,7 +559,7 @@ class Google_Client
   /**
    * Retrieve custom configuration for a specific class.
    * @param $class string|object - class or instance of class to retrieve
-   * @param $key string optional - key to retrieve
+   * @param string $key string optional - key to retrieve
    */
   public function getClassConfig($class, $key = null)
   {

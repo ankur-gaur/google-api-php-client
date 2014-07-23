@@ -612,7 +612,7 @@ class Google_Service_Gmail_UsersDrafts_Resource extends Google_Service_Resource
    *
    * @param string $userId
    * The user's email address. The special value me can be used to indicate the authenticated user.
-   * @param Google_Draft $postBody
+   * @param Google_Service_Gmail_Draft $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Gmail_Draft
    */
@@ -682,7 +682,7 @@ class Google_Service_Gmail_UsersDrafts_Resource extends Google_Service_Resource
    *
    * @param string $userId
    * The user's email address. The special value me can be used to indicate the authenticated user.
-   * @param Google_Draft $postBody
+   * @param Google_Service_Gmail_Draft $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Gmail_Message
    */
@@ -699,7 +699,7 @@ class Google_Service_Gmail_UsersDrafts_Resource extends Google_Service_Resource
    * The user's email address. The special value me can be used to indicate the authenticated user.
    * @param string $id
    * The ID of the draft to update.
-   * @param Google_Draft $postBody
+   * @param Google_Service_Gmail_Draft $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Gmail_Draft
    */
@@ -770,7 +770,7 @@ class Google_Service_Gmail_UsersLabels_Resource extends Google_Service_Resource
    *
    * @param string $userId
    * The user's email address. The special value me can be used to indicate the authenticated user.
-   * @param Google_Label $postBody
+   * @param Google_Service_Gmail_Label $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Gmail_Label
    */
@@ -834,7 +834,7 @@ class Google_Service_Gmail_UsersLabels_Resource extends Google_Service_Resource
    * The user's email address. The special value me can be used to indicate the authenticated user.
    * @param string $id
    * The ID of the label to update.
-   * @param Google_Label $postBody
+   * @param Google_Service_Gmail_Label $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Gmail_Label
    */
@@ -851,7 +851,7 @@ class Google_Service_Gmail_UsersLabels_Resource extends Google_Service_Resource
    * The user's email address. The special value me can be used to indicate the authenticated user.
    * @param string $id
    * The ID of the label to update.
-   * @param Google_Label $postBody
+   * @param Google_Service_Gmail_Label $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Gmail_Label
    */
@@ -914,7 +914,7 @@ class Google_Service_Gmail_UsersMessages_Resource extends Google_Service_Resourc
    *
    * @param string $userId
    * The user's email address. The special value me can be used to indicate the authenticated user.
-   * @param Google_Message $postBody
+   * @param Google_Service_Gmail_Message $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Gmail_Message
    */
@@ -930,7 +930,7 @@ class Google_Service_Gmail_UsersMessages_Resource extends Google_Service_Resourc
    *
    * @param string $userId
    * The user's email address. The special value me can be used to indicate the authenticated user.
-   * @param Google_Message $postBody
+   * @param Google_Service_Gmail_Message $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Gmail_Message
    */
@@ -973,7 +973,7 @@ class Google_Service_Gmail_UsersMessages_Resource extends Google_Service_Resourc
    * The user's email address. The special value me can be used to indicate the authenticated user.
    * @param string $id
    * The ID of the message to modify.
-   * @param Google_ModifyMessageRequest $postBody
+   * @param Google_Service_Gmail_ModifyMessageRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Gmail_Message
    */
@@ -989,7 +989,7 @@ class Google_Service_Gmail_UsersMessages_Resource extends Google_Service_Resourc
    *
    * @param string $userId
    * The user's email address. The special value me can be used to indicate the authenticated user.
-   * @param Google_Message $postBody
+   * @param Google_Service_Gmail_Message $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Gmail_Message
    */
@@ -1140,7 +1140,7 @@ class Google_Service_Gmail_UsersThreads_Resource extends Google_Service_Resource
    * The user's email address. The special value me can be used to indicate the authenticated user.
    * @param string $id
    * The ID of the thread to modify.
-   * @param Google_ModifyThreadRequest $postBody
+   * @param Google_Service_Gmail_ModifyThreadRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Gmail_Thread
    */

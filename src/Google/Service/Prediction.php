@@ -217,7 +217,7 @@ class Google_Service_Prediction_Hostedmodels_Resource extends Google_Service_Res
    * The project associated with the model.
    * @param string $hostedModelName
    * The name of a hosted model.
-   * @param Google_Input $postBody
+   * @param Google_Service_Prediction_Input $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Prediction_Output
    */
@@ -293,7 +293,7 @@ class Google_Service_Prediction_Trainedmodels_Resource extends Google_Service_Re
    *
    * @param string $project
    * The project associated with the model.
-   * @param Google_Insert $postBody
+   * @param Google_Service_Prediction_Insert $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Prediction_Insert2
    */
@@ -329,7 +329,7 @@ class Google_Service_Prediction_Trainedmodels_Resource extends Google_Service_Re
    * The project associated with the model.
    * @param string $id
    * The unique name for the predictive model.
-   * @param Google_Input $postBody
+   * @param Google_Service_Prediction_Input $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Prediction_Output
    */
@@ -346,7 +346,7 @@ class Google_Service_Prediction_Trainedmodels_Resource extends Google_Service_Re
    * The project associated with the model.
    * @param string $id
    * The unique name for the predictive model.
-   * @param Google_Update $postBody
+   * @param Google_Service_Prediction_Update $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Prediction_Insert2
    */

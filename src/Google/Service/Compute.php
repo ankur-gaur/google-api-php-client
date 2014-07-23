@@ -2778,7 +2778,7 @@ class Google_Service_Compute_Addresses_Resource extends Google_Service_Resource
    * Name of the project scoping this request.
    * @param string $region
    * Name of the region scoping this request.
-   * @param Google_Address $postBody
+   * @param Google_Service_Compute_Address $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -2867,7 +2867,7 @@ class Google_Service_Compute_BackendServices_Resource extends Google_Service_Res
    *
    * @param string $backendService
    * Name of the BackendService resource to which the queried instance belongs.
-   * @param Google_ResourceGroupReference $postBody
+   * @param Google_Service_Compute_ResourceGroupReference $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_BackendServiceGroupHealth
    */
@@ -2883,7 +2883,7 @@ class Google_Service_Compute_BackendServices_Resource extends Google_Service_Res
    *
    * @param string $project
    * Name of the project scoping this request.
-   * @param Google_BackendService $postBody
+   * @param Google_Service_Compute_BackendService $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -2925,7 +2925,7 @@ class Google_Service_Compute_BackendServices_Resource extends Google_Service_Res
    * Name of the project scoping this request.
    * @param string $backendService
    * Name of the BackendService resource to update.
-   * @param Google_BackendService $postBody
+   * @param Google_Service_Compute_BackendService $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -2943,7 +2943,7 @@ class Google_Service_Compute_BackendServices_Resource extends Google_Service_Res
    * Name of the project scoping this request.
    * @param string $backendService
    * Name of the BackendService resource to update.
-   * @param Google_BackendService $postBody
+   * @param Google_Service_Compute_BackendService $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -3079,7 +3079,7 @@ class Google_Service_Compute_Disks_Resource extends Google_Service_Resource
    * Name of the zone scoping this request.
    * @param string $disk
    * Name of the persistent disk resource to snapshot.
-   * @param Google_Snapshot $postBody
+   * @param Google_Service_Compute_Snapshot $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -3133,7 +3133,7 @@ class Google_Service_Compute_Disks_Resource extends Google_Service_Resource
    * Name of the project scoping this request.
    * @param string $zone
    * Name of the zone scoping this request.
-   * @param Google_Disk $postBody
+   * @param Google_Service_Compute_Disk $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string sourceImage
@@ -3223,7 +3223,7 @@ class Google_Service_Compute_Firewalls_Resource extends Google_Service_Resource
    *
    * @param string $project
    * Name of the project scoping this request.
-   * @param Google_Firewall $postBody
+   * @param Google_Service_Compute_Firewall $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -3265,7 +3265,7 @@ class Google_Service_Compute_Firewalls_Resource extends Google_Service_Resource
    * Name of the project scoping this request.
    * @param string $firewall
    * Name of the firewall resource to update.
-   * @param Google_Firewall $postBody
+   * @param Google_Service_Compute_Firewall $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -3283,7 +3283,7 @@ class Google_Service_Compute_Firewalls_Resource extends Google_Service_Resource
    * Name of the project scoping this request.
    * @param string $firewall
    * Name of the firewall resource to update.
-   * @param Google_Firewall $postBody
+   * @param Google_Service_Compute_Firewall $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -3374,7 +3374,7 @@ class Google_Service_Compute_ForwardingRules_Resource extends Google_Service_Res
    * Name of the project scoping this request.
    * @param string $region
    * Name of the region scoping this request.
-   * @param Google_ForwardingRule $postBody
+   * @param Google_Service_Compute_ForwardingRule $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -3419,7 +3419,7 @@ class Google_Service_Compute_ForwardingRules_Resource extends Google_Service_Res
    * Name of the region scoping this request.
    * @param string $forwardingRule
    * Name of the ForwardingRule resource in which target is to be set.
-   * @param Google_TargetReference $postBody
+   * @param Google_Service_Compute_TargetReference $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -3480,7 +3480,7 @@ class Google_Service_Compute_GlobalAddresses_Resource extends Google_Service_Res
    *
    * @param string $project
    * Name of the project scoping this request.
-   * @param Google_Address $postBody
+   * @param Google_Service_Compute_Address $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -3565,7 +3565,7 @@ class Google_Service_Compute_GlobalForwardingRules_Resource extends Google_Servi
    *
    * @param string $project
    * Name of the project scoping this request.
-   * @param Google_ForwardingRule $postBody
+   * @param Google_Service_Compute_ForwardingRule $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -3606,7 +3606,7 @@ class Google_Service_Compute_GlobalForwardingRules_Resource extends Google_Servi
    * Name of the project scoping this request.
    * @param string $forwardingRule
    * Name of the ForwardingRule resource in which target is to be set.
-   * @param Google_TargetReference $postBody
+   * @param Google_Service_Compute_TargetReference $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -3759,7 +3759,7 @@ class Google_Service_Compute_HttpHealthChecks_Resource extends Google_Service_Re
    *
    * @param string $project
    * Name of the project scoping this request.
-   * @param Google_HttpHealthCheck $postBody
+   * @param Google_Service_Compute_HttpHealthCheck $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -3802,7 +3802,7 @@ class Google_Service_Compute_HttpHealthChecks_Resource extends Google_Service_Re
    * Name of the project scoping this request.
    * @param string $httpHealthCheck
    * Name of the HttpHealthCheck resource to update.
-   * @param Google_HttpHealthCheck $postBody
+   * @param Google_Service_Compute_HttpHealthCheck $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -3820,7 +3820,7 @@ class Google_Service_Compute_HttpHealthChecks_Resource extends Google_Service_Re
    * Name of the project scoping this request.
    * @param string $httpHealthCheck
    * Name of the HttpHealthCheck resource to update.
-   * @param Google_HttpHealthCheck $postBody
+   * @param Google_Service_Compute_HttpHealthCheck $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -3867,7 +3867,7 @@ class Google_Service_Compute_Images_Resource extends Google_Service_Resource
    * Name of the project scoping this request.
    * @param string $image
    * Image name.
-   * @param Google_DeprecationStatus $postBody
+   * @param Google_Service_Compute_DeprecationStatus $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -3899,7 +3899,7 @@ class Google_Service_Compute_Images_Resource extends Google_Service_Resource
    *
    * @param string $project
    * Name of the project scoping this request.
-   * @param Google_Image $postBody
+   * @param Google_Service_Compute_Image $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -3958,7 +3958,7 @@ class Google_Service_Compute_Instances_Resource extends Google_Service_Resource
    * Instance name.
    * @param string $networkInterface
    * Network interface name.
-   * @param Google_AccessConfig $postBody
+   * @param Google_Service_Compute_AccessConfig $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -4000,7 +4000,7 @@ class Google_Service_Compute_Instances_Resource extends Google_Service_Resource
    * Name of the zone scoping this request.
    * @param string $instance
    * Instance name.
-   * @param Google_AttachedDisk $postBody
+   * @param Google_Service_Compute_AttachedDisk $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -4116,7 +4116,7 @@ class Google_Service_Compute_Instances_Resource extends Google_Service_Resource
    * Name of the project scoping this request.
    * @param string $zone
    * Name of the zone scoping this request.
-   * @param Google_Instance $postBody
+   * @param Google_Service_Compute_Instance $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -4203,7 +4203,7 @@ class Google_Service_Compute_Instances_Resource extends Google_Service_Resource
    * Name of the zone scoping this request.
    * @param string $instance
    * Name of the instance scoping this request.
-   * @param Google_Metadata $postBody
+   * @param Google_Service_Compute_Metadata $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -4222,7 +4222,7 @@ class Google_Service_Compute_Instances_Resource extends Google_Service_Resource
    * Name of the zone scoping this request.
    * @param string $instance
    * Instance name.
-   * @param Google_Scheduling $postBody
+   * @param Google_Service_Compute_Scheduling $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -4242,7 +4242,7 @@ class Google_Service_Compute_Instances_Resource extends Google_Service_Resource
    * Name of the zone scoping this request.
    * @param string $instance
    * Name of the instance scoping this request.
-   * @param Google_Tags $postBody
+   * @param Google_Service_Compute_Tags $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -4413,7 +4413,7 @@ class Google_Service_Compute_Networks_Resource extends Google_Service_Resource
    *
    * @param string $project
    * Name of the project scoping this request.
-   * @param Google_Network $postBody
+   * @param Google_Service_Compute_Network $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -4480,7 +4480,7 @@ class Google_Service_Compute_Projects_Resource extends Google_Service_Resource
    *
    * @param string $project
    * Name of the project scoping this request.
-   * @param Google_Metadata $postBody
+   * @param Google_Service_Compute_Metadata $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -4495,7 +4495,7 @@ class Google_Service_Compute_Projects_Resource extends Google_Service_Resource
    *
    * @param string $project
    * Name of the project scoping this request.
-   * @param Google_UsageExportLocation $postBody
+   * @param Google_Service_Compute_UsageExportLocation $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -4685,7 +4685,7 @@ class Google_Service_Compute_Routes_Resource extends Google_Service_Resource
    *
    * @param string $project
    * Name of the project scoping this request.
-   * @param Google_Route $postBody
+   * @param Google_Service_Compute_Route $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -4839,7 +4839,7 @@ class Google_Service_Compute_TargetHttpProxies_Resource extends Google_Service_R
    *
    * @param string $project
    * Name of the project scoping this request.
-   * @param Google_TargetHttpProxy $postBody
+   * @param Google_Service_Compute_TargetHttpProxy $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -4880,7 +4880,7 @@ class Google_Service_Compute_TargetHttpProxies_Resource extends Google_Service_R
    * Name of the project scoping this request.
    * @param string $targetHttpProxy
    * Name of the TargetHttpProxy resource whose URL map is to be set.
-   * @param Google_UrlMapReference $postBody
+   * @param Google_Service_Compute_UrlMapReference $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -4971,7 +4971,7 @@ class Google_Service_Compute_TargetInstances_Resource extends Google_Service_Res
    * Name of the project scoping this request.
    * @param string $zone
    * Name of the zone scoping this request.
-   * @param Google_TargetInstance $postBody
+   * @param Google_Service_Compute_TargetInstance $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -5029,7 +5029,7 @@ class Google_Service_Compute_TargetPools_Resource extends Google_Service_Resourc
    * Name of the region scoping this request.
    * @param string $targetPool
    * Name of the TargetPool resource to which health_check_url is to be added.
-   * @param Google_TargetPoolsAddHealthCheckRequest $postBody
+   * @param Google_Service_Compute_TargetPoolsAddHealthCheckRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -5048,7 +5048,7 @@ class Google_Service_Compute_TargetPools_Resource extends Google_Service_Resourc
    * Name of the region scoping this request.
    * @param string $targetPool
    * Name of the TargetPool resource to which instance_url is to be added.
-   * @param Google_TargetPoolsAddInstanceRequest $postBody
+   * @param Google_Service_Compute_TargetPoolsAddInstanceRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -5128,7 +5128,7 @@ class Google_Service_Compute_TargetPools_Resource extends Google_Service_Resourc
    * Name of the region scoping this request.
    * @param string $targetPool
    * Name of the TargetPool resource to which the queried instance belongs.
-   * @param Google_InstanceReference $postBody
+   * @param Google_Service_Compute_InstanceReference $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_TargetPoolInstanceHealth
    */
@@ -5146,7 +5146,7 @@ class Google_Service_Compute_TargetPools_Resource extends Google_Service_Resourc
    * Name of the project scoping this request.
    * @param string $region
    * Name of the region scoping this request.
-   * @param Google_TargetPool $postBody
+   * @param Google_Service_Compute_TargetPool $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -5191,7 +5191,7 @@ class Google_Service_Compute_TargetPools_Resource extends Google_Service_Resourc
    * Name of the region scoping this request.
    * @param string $targetPool
    * Name of the TargetPool resource to which health_check_url is to be removed.
-   * @param Google_TargetPoolsRemoveHealthCheckRequest $postBody
+   * @param Google_Service_Compute_TargetPoolsRemoveHealthCheckRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -5210,7 +5210,7 @@ class Google_Service_Compute_TargetPools_Resource extends Google_Service_Resourc
    * Name of the region scoping this request.
    * @param string $targetPool
    * Name of the TargetPool resource to which instance_url is to be removed.
-   * @param Google_TargetPoolsRemoveInstanceRequest $postBody
+   * @param Google_Service_Compute_TargetPoolsRemoveInstanceRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -5229,7 +5229,7 @@ class Google_Service_Compute_TargetPools_Resource extends Google_Service_Resourc
    * Name of the region scoping this request.
    * @param string $targetPool
    * Name of the TargetPool resource for which the backup is to be set.
-   * @param Google_TargetReference $postBody
+   * @param Google_Service_Compute_TargetReference $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param float failoverRatio
@@ -5293,7 +5293,7 @@ class Google_Service_Compute_UrlMaps_Resource extends Google_Service_Resource
    *
    * @param string $project
    * Name of the project scoping this request.
-   * @param Google_UrlMap $postBody
+   * @param Google_Service_Compute_UrlMap $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -5335,7 +5335,7 @@ class Google_Service_Compute_UrlMaps_Resource extends Google_Service_Resource
    * Name of the project scoping this request.
    * @param string $urlMap
    * Name of the UrlMap resource to update.
-   * @param Google_UrlMap $postBody
+   * @param Google_Service_Compute_UrlMap $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -5352,7 +5352,7 @@ class Google_Service_Compute_UrlMaps_Resource extends Google_Service_Resource
    * Name of the project scoping this request.
    * @param string $urlMap
    * Name of the UrlMap resource to update.
-   * @param Google_UrlMap $postBody
+   * @param Google_Service_Compute_UrlMap $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_Operation
    */
@@ -5371,7 +5371,7 @@ class Google_Service_Compute_UrlMaps_Resource extends Google_Service_Resource
    * Name of the project scoping this request.
    * @param string $urlMap
    * Name of the UrlMap resource to be validated as.
-   * @param Google_UrlMapsValidateRequest $postBody
+   * @param Google_Service_Compute_UrlMapsValidateRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Compute_UrlMapsValidateResponse
    */

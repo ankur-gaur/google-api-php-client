@@ -308,7 +308,7 @@ class Google_Service_Reports_Activities_Resource extends Google_Service_Resource
     * specified as the userKey, it returns usageReports for all users.
    * @param string $applicationName
    * Application name for which the events are to be retrieved.
-   * @param Google_Channel $postBody
+   * @param Google_Service_Reports_Channel $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string startTime
@@ -352,7 +352,7 @@ class Google_Service_Reports_Channels_Resource extends Google_Service_Resource
   /**
    * Stop watching resources through this channel (channels.stop)
    *
-   * @param Google_Channel $postBody
+   * @param Google_Service_Reports_Channel $postBody
    * @param array $optParams Optional parameters.
    */
   public function stop(Google_Service_Reports_Channel $postBody, $optParams = array())

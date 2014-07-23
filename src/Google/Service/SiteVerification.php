@@ -165,7 +165,7 @@ class Google_Service_SiteVerification_WebResource_Resource extends Google_Servic
    * Get a verification token for placing on a website or domain.
    * (webResource.getToken)
    *
-   * @param Google_SiteVerificationWebResourceGettokenRequest $postBody
+   * @param Google_Service_SiteVerification_SiteVerificationWebResourceGettokenRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_SiteVerification_SiteVerificationWebResourceGettokenResponse
    */
@@ -180,7 +180,7 @@ class Google_Service_SiteVerification_WebResource_Resource extends Google_Servic
    *
    * @param string $verificationMethod
    * The method to use for verifying a site or domain.
-   * @param Google_SiteVerificationWebResourceResource $postBody
+   * @param Google_Service_SiteVerification_SiteVerificationWebResourceResource $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_SiteVerification_SiteVerificationWebResourceResource
    */
@@ -209,7 +209,7 @@ class Google_Service_SiteVerification_WebResource_Resource extends Google_Servic
    *
    * @param string $id
    * The id of a verified site or domain.
-   * @param Google_SiteVerificationWebResourceResource $postBody
+   * @param Google_Service_SiteVerification_SiteVerificationWebResourceResource $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_SiteVerification_SiteVerificationWebResourceResource
    */
@@ -224,7 +224,7 @@ class Google_Service_SiteVerification_WebResource_Resource extends Google_Servic
    *
    * @param string $id
    * The id of a verified site or domain.
-   * @param Google_SiteVerificationWebResourceResource $postBody
+   * @param Google_Service_SiteVerification_SiteVerificationWebResourceResource $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_SiteVerification_SiteVerificationWebResourceResource
    */

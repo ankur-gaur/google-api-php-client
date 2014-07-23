@@ -83,6 +83,9 @@ class Google_Cache_File extends Google_Cache_Abstract
     }
   }
   
+  /**
+   * @param string $file
+   */
   private function getWriteableCacheFile($file)
   {
     return $this->getCacheFile($file, true);
@@ -93,6 +96,9 @@ class Google_Cache_File extends Google_Cache_Abstract
     return $this->getCacheDir($file, $forWrite) . '/' . md5($file);
   }
   
+  /**
+   * @param boolean $forWrite
+   */
   private function getCacheDir($file, $forWrite)
   {
     // use the first 2 characters of the hash as a directory prefix
@@ -107,11 +113,17 @@ class Google_Cache_File extends Google_Cache_Abstract
     return $storageDir;
   }
   
+  /**
+   * @param string $storageFile
+   */
   private function acquireReadLock($storageFile)
   {
     return $this->acquireLock(LOCK_SH, $storageFile);
   }
   
+  /**
+   * @param string $storageFile
+   */
   private function acquireWriteLock($storageFile)
   {
     $rc = $this->acquireLock(LOCK_EX, $storageFile);
@@ -136,6 +148,9 @@ class Google_Cache_File extends Google_Cache_Abstract
     return true;
   }
   
+  /**
+   * @param string $storageFile
+   */
   public function unlock($storageFile)
   {
     if ($this->fh) {

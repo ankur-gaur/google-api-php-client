@@ -176,7 +176,7 @@ class Google_Model implements ArrayAccess
   /**
    * Given a variable name, discover its type.
    *
-   * @param $name
+   * @param string $name
    * @param $item
    * @return object The object from the item.
    */

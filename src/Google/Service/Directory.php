@@ -1210,7 +1210,7 @@ class Google_Service_Directory_Channels_Resource extends Google_Service_Resource
   /**
    * Stop watching resources through this channel (channels.stop)
    *
-   * @param Google_Channel $postBody
+   * @param Google_Service_Directory_Channel $postBody
    * @param array $optParams Optional parameters.
    */
   public function stop(Google_Service_Directory_Channel $postBody, $optParams = array())
@@ -1289,7 +1289,7 @@ class Google_Service_Directory_Chromeosdevices_Resource extends Google_Service_R
    * Immutable id of the Google Apps account
    * @param string $deviceId
    * Immutable id of Chrome OS Device
-   * @param Google_ChromeOsDevice $postBody
+   * @param Google_Service_Directory_ChromeOsDevice $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string projection
@@ -1309,7 +1309,7 @@ class Google_Service_Directory_Chromeosdevices_Resource extends Google_Service_R
    * Immutable id of the Google Apps account
    * @param string $deviceId
    * Immutable id of Chrome OS Device
-   * @param Google_ChromeOsDevice $postBody
+   * @param Google_Service_Directory_ChromeOsDevice $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string projection
@@ -1365,7 +1365,7 @@ class Google_Service_Directory_Groups_Resource extends Google_Service_Resource
   /**
    * Create Group (groups.insert)
    *
-   * @param Google_Group $postBody
+   * @param Google_Service_Directory_Group $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Directory_Group
    */
@@ -1406,7 +1406,7 @@ class Google_Service_Directory_Groups_Resource extends Google_Service_Resource
    *
    * @param string $groupKey
    * Email or immutable Id of the group. If Id, it should match with id of group object
-   * @param Google_Group $postBody
+   * @param Google_Service_Directory_Group $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Directory_Group
    */
@@ -1421,7 +1421,7 @@ class Google_Service_Directory_Groups_Resource extends Google_Service_Resource
    *
    * @param string $groupKey
    * Email or immutable Id of the group. If Id, it should match with id of group object
-   * @param Google_Group $postBody
+   * @param Google_Service_Directory_Group $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Directory_Group
    */
@@ -1464,7 +1464,7 @@ class Google_Service_Directory_GroupsAliases_Resource extends Google_Service_Res
    *
    * @param string $groupKey
    * Email or immutable Id of the group
-   * @param Google_Alias $postBody
+   * @param Google_Service_Directory_Alias $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Directory_Alias
    */
@@ -1537,7 +1537,7 @@ class Google_Service_Directory_Members_Resource extends Google_Service_Resource
    *
    * @param string $groupKey
    * Email or immutable Id of the group
-   * @param Google_Member $postBody
+   * @param Google_Service_Directory_Member $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Directory_Member
    */
@@ -1576,7 +1576,7 @@ class Google_Service_Directory_Members_Resource extends Google_Service_Resource
    * Email or immutable Id of the group. If Id, it should match with id of group object
    * @param string $memberKey
    * Email or immutable Id of the user. If Id, it should match with id of member object
-   * @param Google_Member $postBody
+   * @param Google_Service_Directory_Member $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Directory_Member
    */
@@ -1593,7 +1593,7 @@ class Google_Service_Directory_Members_Resource extends Google_Service_Resource
    * Email or immutable Id of the group. If Id, it should match with id of group object
    * @param string $memberKey
    * Email or immutable Id of the user. If Id, it should match with id of member object
-   * @param Google_Member $postBody
+   * @param Google_Service_Directory_Member $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Directory_Member
    */
@@ -1623,7 +1623,7 @@ class Google_Service_Directory_Mobiledevices_Resource extends Google_Service_Res
    * Immutable id of the Google Apps account
    * @param string $resourceId
    * Immutable id of Mobile Device
-   * @param Google_MobileDeviceAction $postBody
+   * @param Google_Service_Directory_MobileDeviceAction $postBody
    * @param array $optParams Optional parameters.
    */
   public function action($customerId, $resourceId, Google_Service_Directory_MobileDeviceAction $postBody, $optParams = array())
@@ -1771,7 +1771,7 @@ class Google_Service_Directory_Notifications_Resource extends Google_Service_Res
    * The unique ID for the customer's Google account.
    * @param string $notificationId
    * The unique ID of the notification.
-   * @param Google_Notification $postBody
+   * @param Google_Service_Directory_Notification $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Directory_Notification
    */
@@ -1788,7 +1788,7 @@ class Google_Service_Directory_Notifications_Resource extends Google_Service_Res
    * The unique ID for the customer's Google account.
    * @param string $notificationId
    * The unique ID of the notification.
-   * @param Google_Notification $postBody
+   * @param Google_Service_Directory_Notification $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Directory_Notification
    */
@@ -1847,7 +1847,7 @@ class Google_Service_Directory_Orgunits_Resource extends Google_Service_Resource
    *
    * @param string $customerId
    * Immutable id of the Google Apps account
-   * @param Google_OrgUnit $postBody
+   * @param Google_Service_Directory_OrgUnit $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Directory_OrgUnit
    */
@@ -1884,7 +1884,7 @@ class Google_Service_Directory_Orgunits_Resource extends Google_Service_Resource
    * Immutable id of the Google Apps account
    * @param string $orgUnitPath
    * Full path of the organization unit
-   * @param Google_OrgUnit $postBody
+   * @param Google_Service_Directory_OrgUnit $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Directory_OrgUnit
    */
@@ -1901,7 +1901,7 @@ class Google_Service_Directory_Orgunits_Resource extends Google_Service_Resource
    * Immutable id of the Google Apps account
    * @param string $orgUnitPath
    * Full path of the organization unit
-   * @param Google_OrgUnit $postBody
+   * @param Google_Service_Directory_OrgUnit $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Directory_OrgUnit
    */
@@ -2016,7 +2016,7 @@ class Google_Service_Directory_Users_Resource extends Google_Service_Resource
   /**
    * create user. (users.insert)
    *
-   * @param Google_User $postBody
+   * @param Google_Service_Directory_User $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Directory_User
    */
@@ -2067,7 +2067,7 @@ class Google_Service_Directory_Users_Resource extends Google_Service_Resource
    *
    * @param string $userKey
    * Email or immutable Id of the user as admin
-   * @param Google_UserMakeAdmin $postBody
+   * @param Google_Service_Directory_UserMakeAdmin $postBody
    * @param array $optParams Optional parameters.
    */
   public function makeAdmin($userKey, Google_Service_Directory_UserMakeAdmin $postBody, $optParams = array())
@@ -2081,7 +2081,7 @@ class Google_Service_Directory_Users_Resource extends Google_Service_Resource
    *
    * @param string $userKey
    * Email or immutable Id of the user. If Id, it should match with id of user object
-   * @param Google_User $postBody
+   * @param Google_Service_Directory_User $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Directory_User
    */
@@ -2096,7 +2096,7 @@ class Google_Service_Directory_Users_Resource extends Google_Service_Resource
    *
    * @param string $userKey
    * The immutable id of the user
-   * @param Google_UserUndelete $postBody
+   * @param Google_Service_Directory_UserUndelete $postBody
    * @param array $optParams Optional parameters.
    */
   public function undelete($userKey, Google_Service_Directory_UserUndelete $postBody, $optParams = array())
@@ -2110,7 +2110,7 @@ class Google_Service_Directory_Users_Resource extends Google_Service_Resource
    *
    * @param string $userKey
    * Email or immutable Id of the user. If Id, it should match with id of user object
-   * @param Google_User $postBody
+   * @param Google_Service_Directory_User $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Directory_User
    */
@@ -2123,7 +2123,7 @@ class Google_Service_Directory_Users_Resource extends Google_Service_Resource
   /**
    * Watch for changes in users list (users.watch)
    *
-   * @param Google_Channel $postBody
+   * @param Google_Service_Directory_Channel $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string customer
@@ -2189,7 +2189,7 @@ class Google_Service_Directory_UsersAliases_Resource extends Google_Service_Reso
    *
    * @param string $userKey
    * Email or immutable Id of the user
-   * @param Google_Alias $postBody
+   * @param Google_Service_Directory_Alias $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Directory_Alias
    */
@@ -2221,7 +2221,7 @@ class Google_Service_Directory_UsersAliases_Resource extends Google_Service_Reso
    *
    * @param string $userKey
    * Email or immutable Id of the user
-   * @param Google_Channel $postBody
+   * @param Google_Service_Directory_Channel $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string event
@@ -2279,7 +2279,7 @@ class Google_Service_Directory_UsersPhotos_Resource extends Google_Service_Resou
    *
    * @param string $userKey
    * Email or immutable Id of the user
-   * @param Google_UserPhoto $postBody
+   * @param Google_Service_Directory_UserPhoto $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Directory_UserPhoto
    */
@@ -2294,7 +2294,7 @@ class Google_Service_Directory_UsersPhotos_Resource extends Google_Service_Resou
    *
    * @param string $userKey
    * Email or immutable Id of the user
-   * @param Google_UserPhoto $postBody
+   * @param Google_Service_Directory_UserPhoto $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Directory_UserPhoto
    */

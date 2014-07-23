@@ -283,7 +283,7 @@ class Google_Service_Dns_Changes_Resource extends Google_Service_Resource
    * Identifies the project addressed by this request.
    * @param string $managedZone
    * Identifies the managed zone addressed by this request. Can be the managed zone name or id.
-   * @param Google_Change $postBody
+   * @param Google_Service_Dns_Change $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Dns_Change
    */
@@ -356,7 +356,7 @@ class Google_Service_Dns_ManagedZones_Resource extends Google_Service_Resource
    *
    * @param string $project
    * Identifies the project addressed by this request.
-   * @param Google_ManagedZone $postBody
+   * @param Google_Service_Dns_ManagedZone $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Dns_ManagedZone
    */
