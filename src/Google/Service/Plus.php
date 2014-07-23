@@ -483,7 +483,7 @@ class Google_Service_Plus_Moments_Resource extends Google_Service_Resource
     * authenticated user.
    * @param string $collection
    * The collection to which to write moments.
-   * @param Google_Moment $postBody
+   * @param Google_Service_Plus_Moment $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool debug

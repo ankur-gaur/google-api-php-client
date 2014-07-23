@@ -1196,7 +1196,7 @@ class Google_Service_Games_Achievements_Resource extends Google_Service_Resource
    * Updates multiple achievements for the currently authenticated player.
    * (achievements.updateMultiple)
    *
-   * @param Google_AchievementUpdateMultipleRequest $postBody
+   * @param Google_Service_Games_AchievementUpdateMultipleRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Games_AchievementUpdateMultipleResponse
    */
@@ -1312,7 +1312,7 @@ class Google_Service_Games_Events_Resource extends Google_Service_Resource
    * Records a batch of changes to the number of times events have occurred for
    * the currently authenticated user of this application. (events.record)
    *
-   * @param Google_EventRecordRequest $postBody
+   * @param Google_Service_Games_EventRecordRequest $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string language
@@ -1501,7 +1501,7 @@ class Google_Service_Games_Pushtokens_Resource extends Google_Service_Resource
    * Removes a push token for the current user and application. Removing a non-
    * existent push token will report success. (pushtokens.remove)
    *
-   * @param Google_PushTokenId $postBody
+   * @param Google_Service_Games_PushTokenId $postBody
    * @param array $optParams Optional parameters.
    */
   public function remove(Google_Service_Games_PushTokenId $postBody, $optParams = array())
@@ -1514,7 +1514,7 @@ class Google_Service_Games_Pushtokens_Resource extends Google_Service_Resource
    * Registers a push token for the current user and application.
    * (pushtokens.update)
    *
-   * @param Google_PushToken $postBody
+   * @param Google_Service_Games_PushToken $postBody
    * @param array $optParams Optional parameters.
    */
   public function update(Google_Service_Games_PushToken $postBody, $optParams = array())
@@ -1661,7 +1661,7 @@ class Google_Service_Games_Rooms_Resource extends Google_Service_Resource
    * Create a room. For internal use by the Games SDK only. Calling this method
    * directly is unsupported. (rooms.create)
    *
-   * @param Google_RoomCreateRequest $postBody
+   * @param Google_Service_Games_RoomCreateRequest $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string language
@@ -1729,7 +1729,7 @@ class Google_Service_Games_Rooms_Resource extends Google_Service_Resource
    *
    * @param string $roomId
    * The ID of the room.
-   * @param Google_RoomJoinRequest $postBody
+   * @param Google_Service_Games_RoomJoinRequest $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string language
@@ -1748,7 +1748,7 @@ class Google_Service_Games_Rooms_Resource extends Google_Service_Resource
    *
    * @param string $roomId
    * The ID of the room.
-   * @param Google_RoomLeaveRequest $postBody
+   * @param Google_Service_Games_RoomLeaveRequest $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string language
@@ -1788,7 +1788,7 @@ class Google_Service_Games_Rooms_Resource extends Google_Service_Resource
    *
    * @param string $roomId
    * The ID of the room.
-   * @param Google_RoomP2PStatuses $postBody
+   * @param Google_Service_Games_RoomP2PStatuses $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string language
@@ -1936,7 +1936,7 @@ class Google_Service_Games_Scores_Resource extends Google_Service_Resource
   /**
    * Submits multiple scores to leaderboards. (scores.submitMultiple)
    *
-   * @param Google_PlayerScoreSubmissionList $postBody
+   * @param Google_Service_Games_PlayerScoreSubmissionList $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string language
@@ -2032,7 +2032,7 @@ class Google_Service_Games_TurnBasedMatches_Resource extends Google_Service_Reso
   /**
    * Create a turn-based match. (turnBasedMatches.create)
    *
-   * @param Google_TurnBasedMatchCreateRequest $postBody
+   * @param Google_Service_Games_TurnBasedMatchCreateRequest $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string language
@@ -2084,7 +2084,7 @@ class Google_Service_Games_TurnBasedMatches_Resource extends Google_Service_Reso
    *
    * @param string $matchId
    * The ID of the match.
-   * @param Google_TurnBasedMatchResults $postBody
+   * @param Google_Service_Games_TurnBasedMatchResults $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string language
@@ -2263,7 +2263,7 @@ class Google_Service_Games_TurnBasedMatches_Resource extends Google_Service_Reso
    *
    * @param string $matchId
    * The ID of the match.
-   * @param Google_TurnBasedMatchTurn $postBody
+   * @param Google_Service_Games_TurnBasedMatchTurn $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string language

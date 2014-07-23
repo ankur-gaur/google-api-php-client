@@ -1239,7 +1239,7 @@ class Google_Service_Blogger_Pages_Resource extends Google_Service_Resource
    *
    * @param string $blogId
    * ID of the blog to add the page to.
-   * @param Google_Page $postBody
+   * @param Google_Service_Blogger_Page $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool isDraft
@@ -1282,7 +1282,7 @@ class Google_Service_Blogger_Pages_Resource extends Google_Service_Resource
    * The ID of the Blog.
    * @param string $pageId
    * The ID of the Page.
-   * @param Google_Page $postBody
+   * @param Google_Service_Blogger_Page $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool revert
@@ -1304,7 +1304,7 @@ class Google_Service_Blogger_Pages_Resource extends Google_Service_Resource
    * The ID of the Blog.
    * @param string $pageId
    * The ID of the Page.
-   * @param Google_Page $postBody
+   * @param Google_Service_Blogger_Page $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool revert
@@ -1477,7 +1477,7 @@ class Google_Service_Blogger_Posts_Resource extends Google_Service_Resource
    *
    * @param string $blogId
    * ID of the blog to add the post to.
-   * @param Google_Post $postBody
+   * @param Google_Service_Blogger_Post $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool fetchImages
@@ -1538,7 +1538,7 @@ class Google_Service_Blogger_Posts_Resource extends Google_Service_Resource
    * The ID of the Blog.
    * @param string $postId
    * The ID of the Post.
-   * @param Google_Post $postBody
+   * @param Google_Service_Blogger_Post $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool revert
@@ -1626,7 +1626,7 @@ class Google_Service_Blogger_Posts_Resource extends Google_Service_Resource
    * The ID of the Blog.
    * @param string $postId
    * The ID of the Post.
-   * @param Google_Post $postBody
+   * @param Google_Service_Blogger_Post $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool revert

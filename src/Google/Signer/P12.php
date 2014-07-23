@@ -31,6 +31,10 @@ class Google_Signer_P12 extends Google_Signer_Abstract
   private $privateKey;
 
   // Creates a new signer from a .p12 file.
+
+  /**
+   * @param string $password
+   */
   public function __construct($p12, $password)
   {
     if (!function_exists('openssl_x509_read')) {
@@ -75,6 +79,9 @@ class Google_Signer_P12 extends Google_Signer_Abstract
     }
   }
 
+  /**
+   * @param string $data
+   */
   public function sign($data)
   {
     if (version_compare(PHP_VERSION, '5.3.0') < 0) {

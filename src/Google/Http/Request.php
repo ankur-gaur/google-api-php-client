@@ -76,7 +76,7 @@ class Google_Http_Request
   
   /**
    * Set the base URL that path and query parameters will be added to.
-   * @param $baseComponent string
+   * @param string $baseComponent string
    */
   public function setBaseComponent($baseComponent)
   {
@@ -129,7 +129,7 @@ class Google_Http_Request
 
   /** 
    * Set a new query parameter.
-   * @param $key - string to set, does not need to be URL encoded
+   * @param string $key - string to set, does not need to be URL encoded
    * @param $value - string to set, does not need to be URL encoded
    */
   public function setQueryParam($key, $value)
@@ -138,7 +138,7 @@ class Google_Http_Request
   }
 
   /**
-   * @return string HTTP Response Code.
+   * @return integer HTTP Response Code.
    */
   public function getResponseHttpCode()
   {

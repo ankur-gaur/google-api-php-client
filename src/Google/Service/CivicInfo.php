@@ -190,7 +190,7 @@ class Google_Service_CivicInfo_Elections_Resource extends Google_Service_Resourc
    * @param string $electionId
    * The unique ID of the election to look up. A list of election IDs can be obtained at
     * https://www.googleapis.com/civicinfo/{version}/elections
-   * @param Google_VoterInfoRequest $postBody
+   * @param Google_Service_CivicInfo_VoterInfoRequest $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool officialOnly
@@ -221,7 +221,7 @@ class Google_Service_CivicInfo_Representatives_Resource extends Google_Service_R
    * address or Open Civic Data division identifier.
    * (representatives.representativeInfoQuery)
    *
-   * @param Google_RepresentativeInfoRequest $postBody
+   * @param Google_Service_CivicInfo_RepresentativeInfoRequest $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string ocdId

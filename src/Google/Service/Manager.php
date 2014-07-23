@@ -273,7 +273,7 @@ class Google_Service_Manager_Deployments_Resource extends Google_Service_Resourc
    *
    * @param string $region
    *
-   * @param Google_Deployment $postBody
+   * @param Google_Service_Manager_Deployment $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Manager_Deployment
    */
@@ -355,7 +355,7 @@ class Google_Service_Manager_Templates_Resource extends Google_Service_Resource
    *
    * @param string $projectId
    *
-   * @param Google_Template $postBody
+   * @param Google_Service_Manager_Template $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Manager_Template
    */

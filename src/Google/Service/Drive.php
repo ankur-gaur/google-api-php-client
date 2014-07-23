@@ -1388,7 +1388,7 @@ class Google_Service_Drive_Changes_Resource extends Google_Service_Resource
   /**
    * Subscribe to changes for a user. (changes.watch)
    *
-   * @param Google_Channel $postBody
+   * @param Google_Service_Drive_Channel $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool includeSubscribed
@@ -1427,7 +1427,7 @@ class Google_Service_Drive_Channels_Resource extends Google_Service_Resource
   /**
    * Stop watching resources through this channel (channels.stop)
    *
-   * @param Google_Channel $postBody
+   * @param Google_Service_Drive_Channel $postBody
    * @param array $optParams Optional parameters.
    */
   public function stop(Google_Service_Drive_Channel $postBody, $optParams = array())
@@ -1485,7 +1485,7 @@ class Google_Service_Drive_Children_Resource extends Google_Service_Resource
    *
    * @param string $folderId
    * The ID of the folder.
-   * @param Google_ChildReference $postBody
+   * @param Google_Service_Drive_ChildReference $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Drive_ChildReference
    */
@@ -1569,7 +1569,7 @@ class Google_Service_Drive_Comments_Resource extends Google_Service_Resource
    *
    * @param string $fileId
    * The ID of the file.
-   * @param Google_Comment $postBody
+   * @param Google_Service_Drive_Comment $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Drive_Comment
    */
@@ -1613,7 +1613,7 @@ class Google_Service_Drive_Comments_Resource extends Google_Service_Resource
    * The ID of the file.
    * @param string $commentId
    * The ID of the comment.
-   * @param Google_Comment $postBody
+   * @param Google_Service_Drive_Comment $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Drive_Comment
    */
@@ -1630,7 +1630,7 @@ class Google_Service_Drive_Comments_Resource extends Google_Service_Resource
    * The ID of the file.
    * @param string $commentId
    * The ID of the comment.
-   * @param Google_Comment $postBody
+   * @param Google_Service_Drive_Comment $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Drive_Comment
    */
@@ -1658,7 +1658,7 @@ class Google_Service_Drive_Files_Resource extends Google_Service_Resource
    *
    * @param string $fileId
    * The ID of the file to copy.
-   * @param Google_DriveFile $postBody
+   * @param Google_Service_Drive_DriveFile $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool convert
@@ -1730,7 +1730,7 @@ class Google_Service_Drive_Files_Resource extends Google_Service_Resource
   /**
    * Insert a new file. (files.insert)
    *
-   * @param Google_DriveFile $postBody
+   * @param Google_Service_Drive_DriveFile $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool convert
@@ -1786,7 +1786,7 @@ class Google_Service_Drive_Files_Resource extends Google_Service_Resource
    *
    * @param string $fileId
    * The ID of the file to update.
-   * @param Google_DriveFile $postBody
+   * @param Google_Service_Drive_DriveFile $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string addParents
@@ -1870,7 +1870,7 @@ class Google_Service_Drive_Files_Resource extends Google_Service_Resource
    *
    * @param string $fileId
    * The ID of the file to update.
-   * @param Google_DriveFile $postBody
+   * @param Google_Service_Drive_DriveFile $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string addParents
@@ -1912,7 +1912,7 @@ class Google_Service_Drive_Files_Resource extends Google_Service_Resource
    *
    * @param string $fileId
    * The ID for the file in question.
-   * @param Google_Channel $postBody
+   * @param Google_Service_Drive_Channel $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool updateViewedDate
@@ -1976,7 +1976,7 @@ class Google_Service_Drive_Parents_Resource extends Google_Service_Resource
    *
    * @param string $fileId
    * The ID of the file.
-   * @param Google_ParentReference $postBody
+   * @param Google_Service_Drive_ParentReference $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Drive_ParentReference
    */
@@ -2063,7 +2063,7 @@ class Google_Service_Drive_Permissions_Resource extends Google_Service_Resource
    *
    * @param string $fileId
    * The ID for the file.
-   * @param Google_Permission $postBody
+   * @param Google_Service_Drive_Permission $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string emailMessage
@@ -2101,7 +2101,7 @@ class Google_Service_Drive_Permissions_Resource extends Google_Service_Resource
    * The ID for the file.
    * @param string $permissionId
    * The ID for the permission.
-   * @param Google_Permission $postBody
+   * @param Google_Service_Drive_Permission $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool transferOwnership
@@ -2121,7 +2121,7 @@ class Google_Service_Drive_Permissions_Resource extends Google_Service_Resource
    * The ID for the file.
    * @param string $permissionId
    * The ID for the permission.
-   * @param Google_Permission $postBody
+   * @param Google_Service_Drive_Permission $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool transferOwnership
@@ -2189,7 +2189,7 @@ class Google_Service_Drive_Properties_Resource extends Google_Service_Resource
    *
    * @param string $fileId
    * The ID of the file.
-   * @param Google_Property $postBody
+   * @param Google_Service_Drive_Property $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Drive_Property
    */
@@ -2220,7 +2220,7 @@ class Google_Service_Drive_Properties_Resource extends Google_Service_Resource
    * The ID of the file.
    * @param string $propertyKey
    * The key of the property.
-   * @param Google_Property $postBody
+   * @param Google_Service_Drive_Property $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string visibility
@@ -2240,7 +2240,7 @@ class Google_Service_Drive_Properties_Resource extends Google_Service_Resource
    * The ID of the file.
    * @param string $propertyKey
    * The key of the property.
-   * @param Google_Property $postBody
+   * @param Google_Service_Drive_Property $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string visibility
@@ -2363,7 +2363,7 @@ class Google_Service_Drive_Replies_Resource extends Google_Service_Resource
    * The ID of the file.
    * @param string $commentId
    * The ID of the comment.
-   * @param Google_CommentReply $postBody
+   * @param Google_Service_Drive_CommentReply $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Drive_CommentReply
    */
@@ -2407,7 +2407,7 @@ class Google_Service_Drive_Replies_Resource extends Google_Service_Resource
    * The ID of the comment.
    * @param string $replyId
    * The ID of the reply.
-   * @param Google_CommentReply $postBody
+   * @param Google_Service_Drive_CommentReply $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Drive_CommentReply
    */
@@ -2426,7 +2426,7 @@ class Google_Service_Drive_Replies_Resource extends Google_Service_Resource
    * The ID of the comment.
    * @param string $replyId
    * The ID of the reply.
-   * @param Google_CommentReply $postBody
+   * @param Google_Service_Drive_CommentReply $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Drive_CommentReply
    */
@@ -2501,7 +2501,7 @@ class Google_Service_Drive_Revisions_Resource extends Google_Service_Resource
    * The ID for the file.
    * @param string $revisionId
    * The ID for the revision.
-   * @param Google_Revision $postBody
+   * @param Google_Service_Drive_Revision $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Drive_Revision
    */
@@ -2518,7 +2518,7 @@ class Google_Service_Drive_Revisions_Resource extends Google_Service_Resource
    * The ID for the file.
    * @param string $revisionId
    * The ID for the revision.
-   * @param Google_Revision $postBody
+   * @param Google_Service_Drive_Revision $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Drive_Revision
    */

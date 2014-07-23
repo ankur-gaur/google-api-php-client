@@ -155,7 +155,7 @@ class Google_Service_DoubleClickBidManager_Lineitems_Resource extends Google_Ser
   /**
    * Retrieves line items in CSV format. (lineitems.downloadlineitems)
    *
-   * @param Google_DownloadLineItemsRequest $postBody
+   * @param Google_Service_DoubleClickBidManager_DownloadLineItemsRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_DoubleClickBidManager_DownloadLineItemsResponse
    */
@@ -168,7 +168,7 @@ class Google_Service_DoubleClickBidManager_Lineitems_Resource extends Google_Ser
   /**
    * Uploads line items in CSV format. (lineitems.uploadlineitems)
    *
-   * @param Google_UploadLineItemsRequest $postBody
+   * @param Google_Service_DoubleClickBidManager_UploadLineItemsRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_DoubleClickBidManager_UploadLineItemsResponse
    */
@@ -194,7 +194,7 @@ class Google_Service_DoubleClickBidManager_Queries_Resource extends Google_Servi
   /**
    * Creates a query. (queries.createquery)
    *
-   * @param Google_Query $postBody
+   * @param Google_Service_DoubleClickBidManager_Query $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_DoubleClickBidManager_Query
    */
@@ -249,7 +249,7 @@ class Google_Service_DoubleClickBidManager_Queries_Resource extends Google_Servi
    *
    * @param string $queryId
    * Query ID to run.
-   * @param Google_RunQueryRequest $postBody
+   * @param Google_Service_DoubleClickBidManager_RunQueryRequest $postBody
    * @param array $optParams Optional parameters.
    */
   public function runquery($queryId, Google_Service_DoubleClickBidManager_RunQueryRequest $postBody, $optParams = array())

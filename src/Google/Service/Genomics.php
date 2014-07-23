@@ -480,7 +480,7 @@ class Google_Service_Genomics_Callsets_Resource extends Google_Service_Resource
   /**
    * Creates a new callset. (callsets.create)
    *
-   * @param Google_Callset $postBody
+   * @param Google_Service_Genomics_Callset $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_Callset
    */
@@ -522,7 +522,7 @@ class Google_Service_Genomics_Callsets_Resource extends Google_Service_Resource
    *
    * @param string $callsetId
    * The ID of the callset to be updated.
-   * @param Google_Callset $postBody
+   * @param Google_Service_Genomics_Callset $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_Callset
    */
@@ -535,7 +535,7 @@ class Google_Service_Genomics_Callsets_Resource extends Google_Service_Resource
   /**
    * Gets a list of callsets matching the criteria. (callsets.search)
    *
-   * @param Google_SearchCallsetsRequest $postBody
+   * @param Google_Service_Genomics_SearchCallsetsRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_SearchCallsetsResponse
    */
@@ -550,7 +550,7 @@ class Google_Service_Genomics_Callsets_Resource extends Google_Service_Resource
    *
    * @param string $callsetId
    * The ID of the callset to be updated.
-   * @param Google_Callset $postBody
+   * @param Google_Service_Genomics_Callset $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_Callset
    */
@@ -576,7 +576,7 @@ class Google_Service_Genomics_Datasets_Resource extends Google_Service_Resource
   /**
    * Creates a new dataset. (datasets.create)
    *
-   * @param Google_Dataset $postBody
+   * @param Google_Service_Genomics_Dataset $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_Dataset
    */
@@ -638,7 +638,7 @@ class Google_Service_Genomics_Datasets_Resource extends Google_Service_Resource
    *
    * @param string $datasetId
    * The ID of the dataset to be updated.
-   * @param Google_Dataset $postBody
+   * @param Google_Service_Genomics_Dataset $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_Dataset
    */
@@ -653,7 +653,7 @@ class Google_Service_Genomics_Datasets_Resource extends Google_Service_Resource
    *
    * @param string $datasetId
    * The ID of the dataset to be updated.
-   * @param Google_Dataset $postBody
+   * @param Google_Service_Genomics_Dataset $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_Dataset
    */
@@ -693,7 +693,7 @@ class Google_Service_Genomics_ExperimentalJobs_Resource extends Google_Service_R
    * Creates and asynchronously runs an ad-hoc job. This is an experimental call
    * and may be removed or changed at any time. (jobs.create)
    *
-   * @param Google_ExperimentalCreateJobRequest $postBody
+   * @param Google_Service_Genomics_ExperimentalCreateJobRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_ExperimentalCreateJobResponse
    */
@@ -733,7 +733,7 @@ class Google_Service_Genomics_Jobs_Resource extends Google_Service_Resource
   /**
    * Searches jobs within a project. (jobs.search)
    *
-   * @param Google_SearchJobsRequest $postBody
+   * @param Google_Service_Genomics_SearchJobsRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_SearchJobsResponse
    */
@@ -781,7 +781,7 @@ class Google_Service_Genomics_Reads_Resource extends Google_Service_Resource
    * coordinate (reference sequence & position). Reads with equivalent genomic
    * coordinates are returned in a deterministic order. (reads.search)
    *
-   * @param Google_SearchReadsRequest $postBody
+   * @param Google_Service_Genomics_SearchReadsRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_SearchReadsResponse
    */
@@ -807,7 +807,7 @@ class Google_Service_Genomics_Readsets_Resource extends Google_Service_Resource
   /**
    * Creates a new readset. (readsets.create)
    *
-   * @param Google_Readset $postBody
+   * @param Google_Service_Genomics_Readset $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_Readset
    */
@@ -838,7 +838,7 @@ class Google_Service_Genomics_Readsets_Resource extends Google_Service_Resource
    * will not be preserved, and some custom tags will be converted to strings.
    * (readsets.export)
    *
-   * @param Google_ExportReadsetsRequest $postBody
+   * @param Google_Service_Genomics_ExportReadsetsRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_ExportReadsetsResponse
    */
@@ -868,7 +868,7 @@ class Google_Service_Genomics_Readsets_Resource extends Google_Service_Resource
    * custom tags will be converted to strings, rather than preserving tag types.
    * The caller must have WRITE permissions to the dataset. (readsets.import)
    *
-   * @param Google_ImportReadsetsRequest $postBody
+   * @param Google_Service_Genomics_ImportReadsetsRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_ImportReadsetsResponse
    */
@@ -883,7 +883,7 @@ class Google_Service_Genomics_Readsets_Resource extends Google_Service_Resource
    *
    * @param string $readsetId
    * The ID of the readset to be updated.
-   * @param Google_Readset $postBody
+   * @param Google_Service_Genomics_Readset $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_Readset
    */
@@ -896,7 +896,7 @@ class Google_Service_Genomics_Readsets_Resource extends Google_Service_Resource
   /**
    * Gets a list of readsets matching the criteria. (readsets.search)
    *
-   * @param Google_SearchReadsetsRequest $postBody
+   * @param Google_Service_Genomics_SearchReadsetsRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_SearchReadsetsResponse
    */
@@ -911,7 +911,7 @@ class Google_Service_Genomics_Readsets_Resource extends Google_Service_Resource
    *
    * @param string $readsetId
    * The ID of the readset to be updated.
-   * @param Google_Readset $postBody
+   * @param Google_Service_Genomics_Readset $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_Readset
    */
@@ -937,7 +937,7 @@ class Google_Service_Genomics_Variants_Resource extends Google_Service_Resource
   /**
    * Creates a new variant. (variants.create)
    *
-   * @param Google_Variant $postBody
+   * @param Google_Service_Genomics_Variant $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_Variant
    */
@@ -963,7 +963,7 @@ class Google_Service_Genomics_Variants_Resource extends Google_Service_Resource
   /**
    * Exports variant data to an external destination. (variants.export)
    *
-   * @param Google_ExportVariantsRequest $postBody
+   * @param Google_Service_Genomics_ExportVariantsRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_ExportVariantsResponse
    */
@@ -1006,7 +1006,7 @@ class Google_Service_Genomics_Variants_Resource extends Google_Service_Resource
    * Creates variant data by asynchronously importing the provided information.
    * (variants.import)
    *
-   * @param Google_ImportVariantsRequest $postBody
+   * @param Google_Service_Genomics_ImportVariantsRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_ImportVariantsResponse
    */
@@ -1021,7 +1021,7 @@ class Google_Service_Genomics_Variants_Resource extends Google_Service_Resource
    *
    * @param string $variantId
    * The ID of the variant to be updated..
-   * @param Google_Variant $postBody
+   * @param Google_Service_Genomics_Variant $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_Variant
    */
@@ -1034,7 +1034,7 @@ class Google_Service_Genomics_Variants_Resource extends Google_Service_Resource
   /**
    * Gets a list of variants matching the criteria. (variants.search)
    *
-   * @param Google_SearchVariantsRequest $postBody
+   * @param Google_Service_Genomics_SearchVariantsRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_SearchVariantsResponse
    */
@@ -1049,7 +1049,7 @@ class Google_Service_Genomics_Variants_Resource extends Google_Service_Resource
    *
    * @param string $variantId
    * The ID of the variant to be updated..
-   * @param Google_Variant $postBody
+   * @param Google_Service_Genomics_Variant $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Genomics_Variant
    */

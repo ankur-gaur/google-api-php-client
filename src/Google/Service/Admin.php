@@ -89,7 +89,7 @@ class Google_Service_Admin_Mail_Resource extends Google_Service_Resource
    *
    * @param string $userKey
    * The email or immutable id of the user
-   * @param Google_MailItem $postBody
+   * @param Google_Service_Admin_MailItem $postBody
    * @param array $optParams Optional parameters.
    */
   public function insert($userKey, Google_Service_Admin_MailItem $postBody, $optParams = array())

@@ -124,7 +124,7 @@ class Google_Service_Groupssettings_Groups_Resource extends Google_Service_Resou
    *
    * @param string $groupUniqueId
    * The resource ID
-   * @param Google_Groups $postBody
+   * @param Google_Service_Groupssettings_Groups $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Groupssettings_Groups
    */
@@ -139,7 +139,7 @@ class Google_Service_Groupssettings_Groups_Resource extends Google_Service_Resou
    *
    * @param string $groupUniqueId
    * The resource ID
-   * @param Google_Groups $postBody
+   * @param Google_Service_Groupssettings_Groups $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Groupssettings_Groups
    */

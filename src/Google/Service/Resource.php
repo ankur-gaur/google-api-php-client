@@ -62,6 +62,10 @@ class Google_Service_Resource
   /** @var array $methods */
   private $methods;
 
+  /**
+   * @param string $serviceName
+   * @param string $resourceName
+   */
   public function __construct($service, $serviceName, $resourceName, $resource)
   {
     $this->service = $service;
@@ -75,9 +79,9 @@ class Google_Service_Resource
 
   /**
    * TODO(ianbarber): This function needs simplifying.
-   * @param $name
+   * @param string $name
    * @param $arguments
-   * @param $expected_class - optional, the expected class name
+   * @param string $expected_class - optional, the expected class name
    * @return Google_Http_Request|expected_class
    * @throws Google_Exception
    */

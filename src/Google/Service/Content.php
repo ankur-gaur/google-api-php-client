@@ -530,7 +530,7 @@ class Google_Service_Content_Accounts_Resource extends Google_Service_Resource
    * Retrieves, inserts, updates, and deletes multiple Merchant Center
    * (sub-)accounts in a single request. (accounts.custombatch)
    *
-   * @param Google_AccountsCustomBatchRequest $postBody
+   * @param Google_Service_Content_AccountsCustomBatchRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Content_AccountsCustomBatchResponse
    */
@@ -576,7 +576,7 @@ class Google_Service_Content_Accounts_Resource extends Google_Service_Resource
    *
    * @param string $merchantId
    * The ID of the managing account.
-   * @param Google_Account $postBody
+   * @param Google_Service_Content_Account $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Content_Account
    */
@@ -614,7 +614,7 @@ class Google_Service_Content_Accounts_Resource extends Google_Service_Resource
    * The ID of the managing account.
    * @param string $accountId
    * The ID of the account.
-   * @param Google_Account $postBody
+   * @param Google_Service_Content_Account $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Content_Account
    */
@@ -631,7 +631,7 @@ class Google_Service_Content_Accounts_Resource extends Google_Service_Resource
    * The ID of the managing account.
    * @param string $accountId
    * The ID of the account.
-   * @param Google_Account $postBody
+   * @param Google_Service_Content_Account $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Content_Account
    */
@@ -657,7 +657,7 @@ class Google_Service_Content_Accountstatuses_Resource extends Google_Service_Res
   /**
    * (accountstatuses.custombatch)
    *
-   * @param Google_AccountstatusesCustomBatchRequest $postBody
+   * @param Google_Service_Content_AccountstatusesCustomBatchRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Content_AccountstatusesCustomBatchResponse
    */
@@ -719,7 +719,7 @@ class Google_Service_Content_Datafeeds_Resource extends Google_Service_Resource
   /**
    * (datafeeds.batch)
    *
-   * @param Google_DatafeedsBatchRequest $postBody
+   * @param Google_Service_Content_DatafeedsBatchRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Content_DatafeedsBatchResponse
    */
@@ -732,7 +732,7 @@ class Google_Service_Content_Datafeeds_Resource extends Google_Service_Resource
   /**
    * (datafeeds.custombatch)
    *
-   * @param Google_DatafeedsCustomBatchRequest $postBody
+   * @param Google_Service_Content_DatafeedsCustomBatchRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Content_DatafeedsCustomBatchResponse
    */
@@ -778,7 +778,7 @@ class Google_Service_Content_Datafeeds_Resource extends Google_Service_Resource
    *
    * @param string $merchantId
    *
-   * @param Google_Datafeed $postBody
+   * @param Google_Service_Content_Datafeed $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Content_Datafeed
    */
@@ -811,7 +811,7 @@ class Google_Service_Content_Datafeeds_Resource extends Google_Service_Resource
    *
    * @param string $datafeedId
    *
-   * @param Google_Datafeed $postBody
+   * @param Google_Service_Content_Datafeed $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Content_Datafeed
    */
@@ -828,7 +828,7 @@ class Google_Service_Content_Datafeeds_Resource extends Google_Service_Resource
    *
    * @param string $datafeedId
    *
-   * @param Google_Datafeed $postBody
+   * @param Google_Service_Content_Datafeed $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Content_Datafeed
    */
@@ -854,7 +854,7 @@ class Google_Service_Content_Datafeedstatuses_Resource extends Google_Service_Re
   /**
    * (datafeedstatuses.batch)
    *
-   * @param Google_DatafeedstatusesBatchRequest $postBody
+   * @param Google_Service_Content_DatafeedstatusesBatchRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Content_DatafeedstatusesBatchResponse
    */
@@ -867,7 +867,7 @@ class Google_Service_Content_Datafeedstatuses_Resource extends Google_Service_Re
   /**
    * (datafeedstatuses.custombatch)
    *
-   * @param Google_DatafeedstatusesCustomBatchRequest $postBody
+   * @param Google_Service_Content_DatafeedstatusesCustomBatchRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Content_DatafeedstatusesCustomBatchResponse
    */
@@ -926,7 +926,7 @@ class Google_Service_Content_Inventory_Resource extends Google_Service_Resource
    * Updates price and availability for multiple products or stores in a single
    * request. (inventory.custombatch)
    *
-   * @param Google_InventoryCustomBatchRequest $postBody
+   * @param Google_Service_Content_InventoryCustomBatchRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Content_InventoryCustomBatchResponse
    */
@@ -947,7 +947,7 @@ class Google_Service_Content_Inventory_Resource extends Google_Service_Resource
     * availability of an online product.
    * @param string $productId
    * The ID of the product for which to update price and availability.
-   * @param Google_InventorySetRequest $postBody
+   * @param Google_Service_Content_InventorySetRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Content_InventorySetResponse
    */
@@ -974,7 +974,7 @@ class Google_Service_Content_Products_Resource extends Google_Service_Resource
    * Retrieves, inserts, and deletes multiple products in a single request.
    * (products.custombatch)
    *
-   * @param Google_ProductsCustomBatchRequest $postBody
+   * @param Google_Service_Content_ProductsCustomBatchRequest $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool dryRun
@@ -1026,7 +1026,7 @@ class Google_Service_Content_Products_Resource extends Google_Service_Resource
    *
    * @param string $merchantId
    * The ID of the managing account.
-   * @param Google_Product $postBody
+   * @param Google_Service_Content_Product $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool dryRun
@@ -1075,7 +1075,7 @@ class Google_Service_Content_Productstatuses_Resource extends Google_Service_Res
    * Gets the statuses of multiple products in a single request.
    * (productstatuses.custombatch)
    *
-   * @param Google_ProductstatusesCustomBatchRequest $postBody
+   * @param Google_Service_Content_ProductstatusesCustomBatchRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Content_ProductstatusesCustomBatchResponse
    */

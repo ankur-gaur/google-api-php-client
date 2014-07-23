@@ -392,7 +392,7 @@ class Google_Service_Dfareporting_DimensionValues_Resource extends Google_Servic
    *
    * @param string $profileId
    * The DFA user profile ID.
-   * @param Google_DimensionValueRequest $postBody
+   * @param Google_Service_Dfareporting_DimensionValueRequest $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string pageToken
@@ -510,7 +510,7 @@ class Google_Service_Dfareporting_Reports_Resource extends Google_Service_Resour
    *
    * @param string $profileId
    * The DFA user profile ID.
-   * @param Google_Report $postBody
+   * @param Google_Service_Dfareporting_Report $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Dfareporting_Report
    */
@@ -552,7 +552,7 @@ class Google_Service_Dfareporting_Reports_Resource extends Google_Service_Resour
    * The DFA user profile ID.
    * @param string $reportId
    * The ID of the report.
-   * @param Google_Report $postBody
+   * @param Google_Service_Dfareporting_Report $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Dfareporting_Report
    */
@@ -588,7 +588,7 @@ class Google_Service_Dfareporting_Reports_Resource extends Google_Service_Resour
    * The DFA user profile ID.
    * @param string $reportId
    * The ID of the report.
-   * @param Google_Report $postBody
+   * @param Google_Service_Dfareporting_Report $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Dfareporting_Report
    */
@@ -618,7 +618,7 @@ class Google_Service_Dfareporting_ReportsCompatibleFields_Resource extends Googl
    *
    * @param string $profileId
    * The DFA user profile ID.
-   * @param Google_Report $postBody
+   * @param Google_Service_Dfareporting_Report $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Dfareporting_CompatibleFields
    */

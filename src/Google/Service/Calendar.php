@@ -918,7 +918,7 @@ class Google_Service_Calendar_Acl_Resource extends Google_Service_Resource
    *
    * @param string $calendarId
    * Calendar identifier.
-   * @param Google_AclRule $postBody
+   * @param Google_Service_Calendar_AclRule $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Calendar_AclRule
    */
@@ -971,7 +971,7 @@ class Google_Service_Calendar_Acl_Resource extends Google_Service_Resource
    * Calendar identifier.
    * @param string $ruleId
    * ACL rule identifier.
-   * @param Google_AclRule $postBody
+   * @param Google_Service_Calendar_AclRule $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Calendar_AclRule
    */
@@ -988,7 +988,7 @@ class Google_Service_Calendar_Acl_Resource extends Google_Service_Resource
    * Calendar identifier.
    * @param string $ruleId
    * ACL rule identifier.
-   * @param Google_AclRule $postBody
+   * @param Google_Service_Calendar_AclRule $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Calendar_AclRule
    */
@@ -1003,7 +1003,7 @@ class Google_Service_Calendar_Acl_Resource extends Google_Service_Resource
    *
    * @param string $calendarId
    * Calendar identifier.
-   * @param Google_Channel $postBody
+   * @param Google_Service_Calendar_Channel $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string pageToken
@@ -1077,7 +1077,7 @@ class Google_Service_Calendar_CalendarList_Resource extends Google_Service_Resou
   /**
    * Adds an entry to the user's calendar list. (calendarList.insert)
    *
-   * @param Google_CalendarListEntry $postBody
+   * @param Google_Service_Calendar_CalendarListEntry $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool colorRgbFormat
@@ -1138,7 +1138,7 @@ class Google_Service_Calendar_CalendarList_Resource extends Google_Service_Resou
    *
    * @param string $calendarId
    * Calendar identifier.
-   * @param Google_CalendarListEntry $postBody
+   * @param Google_Service_Calendar_CalendarListEntry $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool colorRgbFormat
@@ -1158,7 +1158,7 @@ class Google_Service_Calendar_CalendarList_Resource extends Google_Service_Resou
    *
    * @param string $calendarId
    * Calendar identifier.
-   * @param Google_CalendarListEntry $postBody
+   * @param Google_Service_Calendar_CalendarListEntry $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool colorRgbFormat
@@ -1176,7 +1176,7 @@ class Google_Service_Calendar_CalendarList_Resource extends Google_Service_Resou
   /**
    * Watch for changes to CalendarList resources. (calendarList.watch)
    *
-   * @param Google_Channel $postBody
+   * @param Google_Service_Calendar_Channel $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string syncToken
@@ -1271,7 +1271,7 @@ class Google_Service_Calendar_Calendars_Resource extends Google_Service_Resource
   /**
    * Creates a secondary calendar. (calendars.insert)
    *
-   * @param Google_Calendar $postBody
+   * @param Google_Service_Calendar_Calendar $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Calendar_Calendar
    */
@@ -1287,7 +1287,7 @@ class Google_Service_Calendar_Calendars_Resource extends Google_Service_Resource
    *
    * @param string $calendarId
    * Calendar identifier.
-   * @param Google_Calendar $postBody
+   * @param Google_Service_Calendar_Calendar $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Calendar_Calendar
    */
@@ -1302,7 +1302,7 @@ class Google_Service_Calendar_Calendars_Resource extends Google_Service_Resource
    *
    * @param string $calendarId
    * Calendar identifier.
-   * @param Google_Calendar $postBody
+   * @param Google_Service_Calendar_Calendar $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Calendar_Calendar
    */
@@ -1328,7 +1328,7 @@ class Google_Service_Calendar_Channels_Resource extends Google_Service_Resource
   /**
    * Stop watching resources through this channel (channels.stop)
    *
-   * @param Google_Channel $postBody
+   * @param Google_Service_Calendar_Channel $postBody
    * @param array $optParams Optional parameters.
    */
   public function stop(Google_Service_Calendar_Channel $postBody, $optParams = array())
@@ -1426,7 +1426,7 @@ class Google_Service_Calendar_Events_Resource extends Google_Service_Resource
    *
    * @param string $calendarId
    * Calendar identifier.
-   * @param Google_Event $postBody
+   * @param Google_Service_Calendar_Event $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Calendar_Event
    */
@@ -1441,7 +1441,7 @@ class Google_Service_Calendar_Events_Resource extends Google_Service_Resource
    *
    * @param string $calendarId
    * Calendar identifier.
-   * @param Google_Event $postBody
+   * @param Google_Service_Calendar_Event $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool sendNotifications
@@ -1622,7 +1622,7 @@ class Google_Service_Calendar_Events_Resource extends Google_Service_Resource
    * Calendar identifier.
    * @param string $eventId
    * Event identifier.
-   * @param Google_Event $postBody
+   * @param Google_Service_Calendar_Event $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool sendNotifications
@@ -1670,7 +1670,7 @@ class Google_Service_Calendar_Events_Resource extends Google_Service_Resource
    * Calendar identifier.
    * @param string $eventId
    * Event identifier.
-   * @param Google_Event $postBody
+   * @param Google_Service_Calendar_Event $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param bool sendNotifications
@@ -1697,7 +1697,7 @@ class Google_Service_Calendar_Events_Resource extends Google_Service_Resource
    *
    * @param string $calendarId
    * Calendar identifier.
-   * @param Google_Channel $postBody
+   * @param Google_Service_Calendar_Channel $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string orderBy
@@ -1799,7 +1799,7 @@ class Google_Service_Calendar_Freebusy_Resource extends Google_Service_Resource
   /**
    * Returns free/busy information for a set of calendars. (freebusy.query)
    *
-   * @param Google_FreeBusyRequest $postBody
+   * @param Google_Service_Calendar_FreeBusyRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Calendar_FreeBusyResponse
    */
@@ -1867,7 +1867,7 @@ class Google_Service_Calendar_Settings_Resource extends Google_Service_Resource
   /**
    * Watch for changes to Settings resources. (settings.watch)
    *
-   * @param Google_Channel $postBody
+   * @param Google_Service_Calendar_Channel $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string pageToken

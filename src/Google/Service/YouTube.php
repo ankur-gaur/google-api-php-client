@@ -1324,7 +1324,7 @@ class Google_Service_YouTube_Activities_Resource extends Google_Service_Resource
     * write operation will set as well as the properties that the API response will include.
   The part
     * names that you can include in the parameter value are snippet and contentDetails.
-   * @param Google_Activity $postBody
+   * @param Google_Service_YouTube_Activity $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_YouTube_Activity
    */
@@ -1414,7 +1414,7 @@ class Google_Service_YouTube_ChannelBanners_Resource extends Google_Service_Reso
    * branding settings. Set the brandingSettings.image.bannerExternalUrl
    * property's value to the URL obtained in step 2. (channelBanners.insert)
    *
-   * @param Google_ChannelBannerResource $postBody
+   * @param Google_Service_YouTube_ChannelBannerResource $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string onBehalfOfContentOwner
@@ -1471,7 +1471,7 @@ class Google_Service_YouTube_ChannelSections_Resource extends Google_Service_Res
     * write operation will set as well as the properties that the API response will include.
   The part
     * names that you can include in the parameter value are snippet and contentDetails.
-   * @param Google_ChannelSection $postBody
+   * @param Google_Service_YouTube_ChannelSection $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string onBehalfOfContentOwnerChannel
@@ -1558,7 +1558,7 @@ class Google_Service_YouTube_ChannelSections_Resource extends Google_Service_Res
     * write operation will set as well as the properties that the API response will include.
   The part
     * names that you can include in the parameter value are snippet and contentDetails.
-   * @param Google_ChannelSection $postBody
+   * @param Google_Service_YouTube_ChannelSection $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_YouTube_ChannelSection
    */
@@ -1650,7 +1650,7 @@ class Google_Service_YouTube_Channels_Resource extends Google_Service_Resource
   Note that this
     * method will override the existing values for all of the mutable properties that are contained in
     * any parts that the parameter value specifies.
-   * @param Google_Channel $postBody
+   * @param Google_Service_YouTube_Channel $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string onBehalfOfContentOwner
@@ -1950,7 +1950,7 @@ class Google_Service_YouTube_LiveBroadcasts_Resource extends Google_Service_Reso
   The part
     * properties that you can include in the parameter value are id, snippet, contentDetails, and
     * status.
-   * @param Google_LiveBroadcast $postBody
+   * @param Google_Service_YouTube_LiveBroadcast $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string onBehalfOfContentOwnerChannel
@@ -2118,7 +2118,7 @@ class Google_Service_YouTube_LiveBroadcasts_Resource extends Google_Service_Reso
     * the broadcast's privacy setting will be updated to whatever value the request body specifies. If
     * the request body does not specify a value, the existing privacy setting will be removed and the
     * broadcast will revert to the default privacy setting.
-   * @param Google_LiveBroadcast $postBody
+   * @param Google_Service_YouTube_LiveBroadcast $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string onBehalfOfContentOwnerChannel
@@ -2215,7 +2215,7 @@ class Google_Service_YouTube_LiveStreams_Resource extends Google_Service_Resourc
     * write operation will set as well as the properties that the API response will include.
   The part
     * properties that you can include in the parameter value are id, snippet, cdn, and status.
-   * @param Google_LiveStream $postBody
+   * @param Google_Service_YouTube_LiveStream $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string onBehalfOfContentOwnerChannel
@@ -2321,7 +2321,7 @@ class Google_Service_YouTube_LiveStreams_Resource extends Google_Service_Resourc
     * that this method will override the existing values for all of the mutable properties that are
     * contained in any parts that the parameter value specifies. If the request body does not specify
     * a value for a mutable property, the existing value for that property will be removed.
-   * @param Google_LiveStream $postBody
+   * @param Google_Service_YouTube_LiveStream $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string onBehalfOfContentOwnerChannel
@@ -2392,7 +2392,7 @@ class Google_Service_YouTube_PlaylistItems_Resource extends Google_Service_Resou
     * write operation will set as well as the properties that the API response will include.
   The part
     * names that you can include in the parameter value are snippet, contentDetails, and status.
-   * @param Google_PlaylistItem $postBody
+   * @param Google_Service_YouTube_PlaylistItem $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string onBehalfOfContentOwner
@@ -2482,7 +2482,7 @@ class Google_Service_YouTube_PlaylistItems_Resource extends Google_Service_Resou
     * the playlist item's start and end times will be updated to whatever value the request body
     * specifies. If the request body does not specify values, the existing start and end times will be
     * removed and replaced with the default settings.
-   * @param Google_PlaylistItem $postBody
+   * @param Google_Service_YouTube_PlaylistItem $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_YouTube_PlaylistItem
    */
@@ -2538,7 +2538,7 @@ class Google_Service_YouTube_Playlists_Resource extends Google_Service_Resource
     * write operation will set as well as the properties that the API response will include.
   The part
     * names that you can include in the parameter value are snippet and status.
-   * @param Google_Playlist $postBody
+   * @param Google_Service_YouTube_Playlist $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string onBehalfOfContentOwnerChannel
@@ -2657,7 +2657,7 @@ class Google_Service_YouTube_Playlists_Resource extends Google_Service_Resource
     * whatever value the request body specifies. If the request body does not specify a value, the
     * existing privacy setting will be removed and the playlist will revert to the default privacy
     * setting.
-   * @param Google_Playlist $postBody
+   * @param Google_Service_YouTube_Playlist $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string onBehalfOfContentOwner
@@ -2850,7 +2850,7 @@ class Google_Service_YouTube_Subscriptions_Resource extends Google_Service_Resou
     * write operation will set as well as the properties that the API response will include.
   The part
     * names that you can include in the parameter value are snippet and contentDetails.
-   * @param Google_Subscription $postBody
+   * @param Google_Service_YouTube_Subscription $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_YouTube_Subscription
    */
@@ -3089,7 +3089,7 @@ class Google_Service_YouTube_Videos_Resource extends Google_Service_Resource
     * statistics that YouTube calculates for a video and does not contain values that you can set or
     * modify. If the parameter value specifies a part that does not contain mutable values, that part
     * will still be included in the API response.
-   * @param Google_Video $postBody
+   * @param Google_Service_YouTube_Video $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string onBehalfOfContentOwner
@@ -3247,7 +3247,7 @@ class Google_Service_YouTube_Videos_Resource extends Google_Service_Resource
     * statistics object encapsulates statistics that YouTube calculates for a video and does not
     * contain values that you can set or modify. If the parameter value specifies a part that does not
     * contain mutable values, that part will still be included in the API response.
-   * @param Google_Video $postBody
+   * @param Google_Service_YouTube_Video $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string onBehalfOfContentOwner
@@ -3288,7 +3288,7 @@ class Google_Service_YouTube_Watermarks_Resource extends Google_Service_Resource
    * @param string $channelId
    * The channelId parameter specifies a YouTube channel ID for which the watermark is being
     * provided.
-   * @param Google_InvideoBranding $postBody
+   * @param Google_Service_YouTube_InvideoBranding $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string onBehalfOfContentOwner

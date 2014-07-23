@@ -390,7 +390,7 @@ class Google_Service_Resourceviews_RegionViews_Resource extends Google_Service_R
    * The region name of the resource view.
    * @param string $resourceViewName
    * The name of the resource view.
-   * @param Google_RegionViewsAddResourcesRequest $postBody
+   * @param Google_Service_Resourceviews_RegionViewsAddResourcesRequest $postBody
    * @param array $optParams Optional parameters.
    */
   public function addresources($projectName, $region, $resourceViewName, Google_Service_Resourceviews_RegionViewsAddResourcesRequest $postBody, $optParams = array())
@@ -441,7 +441,7 @@ class Google_Service_Resourceviews_RegionViews_Resource extends Google_Service_R
    * The project name of the resource view.
    * @param string $region
    * The region name of the resource view.
-   * @param Google_ResourceView $postBody
+   * @param Google_Service_Resourceviews_ResourceView $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Resourceviews_RegionViewsInsertResponse
    */
@@ -508,7 +508,7 @@ class Google_Service_Resourceviews_RegionViews_Resource extends Google_Service_R
    * The region name of the resource view.
    * @param string $resourceViewName
    * The name of the resource view.
-   * @param Google_RegionViewsRemoveResourcesRequest $postBody
+   * @param Google_Service_Resourceviews_RegionViewsRemoveResourcesRequest $postBody
    * @param array $optParams Optional parameters.
    */
   public function removeresources($projectName, $region, $resourceViewName, Google_Service_Resourceviews_RegionViewsRemoveResourcesRequest $postBody, $optParams = array())
@@ -539,7 +539,7 @@ class Google_Service_Resourceviews_ZoneViews_Resource extends Google_Service_Res
    * The zone name of the resource view.
    * @param string $resourceViewName
    * The name of the resource view.
-   * @param Google_ZoneViewsAddResourcesRequest $postBody
+   * @param Google_Service_Resourceviews_ZoneViewsAddResourcesRequest $postBody
    * @param array $optParams Optional parameters.
    */
   public function addresources($projectName, $zone, $resourceViewName, Google_Service_Resourceviews_ZoneViewsAddResourcesRequest $postBody, $optParams = array())
@@ -590,7 +590,7 @@ class Google_Service_Resourceviews_ZoneViews_Resource extends Google_Service_Res
    * The project name of the resource view.
    * @param string $zone
    * The zone name of the resource view.
-   * @param Google_ResourceView $postBody
+   * @param Google_Service_Resourceviews_ResourceView $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Resourceviews_ZoneViewsInsertResponse
    */
@@ -657,7 +657,7 @@ class Google_Service_Resourceviews_ZoneViews_Resource extends Google_Service_Res
    * The zone name of the resource view.
    * @param string $resourceViewName
    * The name of the resource view.
-   * @param Google_ZoneViewsRemoveResourcesRequest $postBody
+   * @param Google_Service_Resourceviews_ZoneViewsRemoveResourcesRequest $postBody
    * @param array $optParams Optional parameters.
    */
   public function removeresources($projectName, $zone, $resourceViewName, Google_Service_Resourceviews_ZoneViewsRemoveResourcesRequest $postBody, $optParams = array())

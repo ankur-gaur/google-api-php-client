@@ -2095,7 +2095,7 @@ class Google_Service_Analytics_ManagementAccountUserLinks_Resource extends Googl
    *
    * @param string $accountId
    * Account ID to create the user link for.
-   * @param Google_EntityUserLink $postBody
+   * @param Google_Service_Analytics_EntityUserLink $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_EntityUserLink
    */
@@ -2134,7 +2134,7 @@ class Google_Service_Analytics_ManagementAccountUserLinks_Resource extends Googl
    * Account ID to update the account-user link for.
    * @param string $linkId
    * Link ID to update the account-user link for.
-   * @param Google_EntityUserLink $postBody
+   * @param Google_Service_Analytics_EntityUserLink $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_EntityUserLink
    */
@@ -2360,7 +2360,7 @@ class Google_Service_Analytics_ManagementExperiments_Resource extends Google_Ser
    * Web property ID to create the experiment for.
    * @param string $profileId
    * View (Profile) ID to create the experiment for.
-   * @param Google_Experiment $postBody
+   * @param Google_Service_Analytics_Experiment $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_Experiment
    */
@@ -2407,7 +2407,7 @@ class Google_Service_Analytics_ManagementExperiments_Resource extends Google_Ser
    * View (Profile) ID of the experiment to update.
    * @param string $experimentId
    * Experiment ID of the experiment to update.
-   * @param Google_Experiment $postBody
+   * @param Google_Service_Analytics_Experiment $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_Experiment
    */
@@ -2428,7 +2428,7 @@ class Google_Service_Analytics_ManagementExperiments_Resource extends Google_Ser
    * View (Profile) ID of the experiment to update.
    * @param string $experimentId
    * Experiment ID of the experiment to update.
-   * @param Google_Experiment $postBody
+   * @param Google_Service_Analytics_Experiment $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_Experiment
    */
@@ -2487,7 +2487,7 @@ class Google_Service_Analytics_ManagementFilters_Resource extends Google_Service
    *
    * @param string $accountId
    * Account ID to create filter for.
-   * @param Google_Filter $postBody
+   * @param Google_Service_Analytics_Filter $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_Filter
    */
@@ -2525,7 +2525,7 @@ class Google_Service_Analytics_ManagementFilters_Resource extends Google_Service
    * Account ID to which the filter belongs.
    * @param string $filterId
    * ID of the filter to be updated.
-   * @param Google_Filter $postBody
+   * @param Google_Service_Analytics_Filter $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_Filter
    */
@@ -2542,7 +2542,7 @@ class Google_Service_Analytics_ManagementFilters_Resource extends Google_Service
    * Account ID to which the filter belongs.
    * @param string $filterId
    * ID of the filter to be updated.
-   * @param Google_Filter $postBody
+   * @param Google_Service_Analytics_Filter $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_Filter
    */
@@ -2593,7 +2593,7 @@ class Google_Service_Analytics_ManagementGoals_Resource extends Google_Service_R
    * Web property ID to create the goal for.
    * @param string $profileId
    * View (Profile) ID to create the goal for.
-   * @param Google_Goal $postBody
+   * @param Google_Service_Analytics_Goal $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_Goal
    */
@@ -2642,7 +2642,7 @@ class Google_Service_Analytics_ManagementGoals_Resource extends Google_Service_R
    * View (Profile) ID to update the goal.
    * @param string $goalId
    * Index of the goal to be updated.
-   * @param Google_Goal $postBody
+   * @param Google_Service_Analytics_Goal $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_Goal
    */
@@ -2663,7 +2663,7 @@ class Google_Service_Analytics_ManagementGoals_Resource extends Google_Service_R
    * View (Profile) ID to update the goal.
    * @param string $goalId
    * Index of the goal to be updated.
-   * @param Google_Goal $postBody
+   * @param Google_Service_Analytics_Goal $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_Goal
    */
@@ -2733,7 +2733,7 @@ class Google_Service_Analytics_ManagementProfileFilterLinks_Resource extends Goo
    * Web property Id to create profile filter link for.
    * @param string $profileId
    * Profile ID to create filter link for.
-   * @param Google_ProfileFilterLink $postBody
+   * @param Google_Service_Analytics_ProfileFilterLink $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_ProfileFilterLink
    */
@@ -2782,7 +2782,7 @@ class Google_Service_Analytics_ManagementProfileFilterLinks_Resource extends Goo
    * Profile ID to which filter link belongs
    * @param string $linkId
    * ID of the profile filter link to be updated.
-   * @param Google_ProfileFilterLink $postBody
+   * @param Google_Service_Analytics_ProfileFilterLink $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_ProfileFilterLink
    */
@@ -2803,7 +2803,7 @@ class Google_Service_Analytics_ManagementProfileFilterLinks_Resource extends Goo
    * Profile ID to which filter link belongs
    * @param string $linkId
    * ID of the profile filter link to be updated.
-   * @param Google_ProfileFilterLink $postBody
+   * @param Google_Service_Analytics_ProfileFilterLink $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_ProfileFilterLink
    */
@@ -2853,7 +2853,7 @@ class Google_Service_Analytics_ManagementProfileUserLinks_Resource extends Googl
    * Web Property ID to create the user link for.
    * @param string $profileId
    * View (Profile) ID to create the user link for.
-   * @param Google_EntityUserLink $postBody
+   * @param Google_Service_Analytics_EntityUserLink $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_EntityUserLink
    */
@@ -2902,7 +2902,7 @@ class Google_Service_Analytics_ManagementProfileUserLinks_Resource extends Googl
    * View (Profile ID) to update the user link for.
    * @param string $linkId
    * Link ID to update the user link for.
-   * @param Google_EntityUserLink $postBody
+   * @param Google_Service_Analytics_EntityUserLink $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_EntityUserLink
    */
@@ -2966,7 +2966,7 @@ class Google_Service_Analytics_ManagementProfiles_Resource extends Google_Servic
    * Account ID to create the view (profile) for.
    * @param string $webPropertyId
    * Web property ID to create the view (profile) for.
-   * @param Google_Profile $postBody
+   * @param Google_Service_Analytics_Profile $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_Profile
    */
@@ -3011,7 +3011,7 @@ class Google_Service_Analytics_ManagementProfiles_Resource extends Google_Servic
    * Web property ID to which the view (profile) belongs
    * @param string $profileId
    * ID of the view (profile) to be updated.
-   * @param Google_Profile $postBody
+   * @param Google_Service_Analytics_Profile $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_Profile
    */
@@ -3030,7 +3030,7 @@ class Google_Service_Analytics_ManagementProfiles_Resource extends Google_Servic
    * Web property ID to which the view (profile) belongs
    * @param string $profileId
    * ID of the view (profile) to be updated.
-   * @param Google_Profile $postBody
+   * @param Google_Service_Analytics_Profile $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_Profile
    */
@@ -3112,7 +3112,7 @@ class Google_Service_Analytics_ManagementUnsampledReports_Resource extends Googl
    * Web property ID to create the unsampled report for.
    * @param string $profileId
    * View (Profile) ID to create the unsampled report for.
-   * @param Google_UnsampledReport $postBody
+   * @param Google_Service_Analytics_UnsampledReport $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_UnsampledReport
    */
@@ -3171,7 +3171,7 @@ class Google_Service_Analytics_ManagementUploads_Resource extends Google_Service
    * Web property Id for the uploads to be deleted.
    * @param string $customDataSourceId
    * Custom data source Id for the uploads to be deleted.
-   * @param Google_AnalyticsDataimportDeleteUploadDataRequest $postBody
+   * @param Google_Service_Analytics_AnalyticsDataimportDeleteUploadDataRequest $postBody
    * @param array $optParams Optional parameters.
    */
   public function deleteUploadData($accountId, $webPropertyId, $customDataSourceId, Google_Service_Analytics_AnalyticsDataimportDeleteUploadDataRequest $postBody, $optParams = array())
@@ -3315,7 +3315,7 @@ class Google_Service_Analytics_ManagementWebPropertyAdWordsLinks_Resource extend
    * ID of the Google Analytics account to create the link for.
    * @param string $webPropertyId
    * Web property ID to create the link for.
-   * @param Google_EntityAdWordsLink $postBody
+   * @param Google_Service_Analytics_EntityAdWordsLink $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_EntityAdWordsLink
    */
@@ -3358,7 +3358,7 @@ class Google_Service_Analytics_ManagementWebPropertyAdWordsLinks_Resource extend
    * Web property ID to retrieve the AdWords link for.
    * @param string $webPropertyAdWordsLinkId
    * Web property-AdWords link ID.
-   * @param Google_EntityAdWordsLink $postBody
+   * @param Google_Service_Analytics_EntityAdWordsLink $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_EntityAdWordsLink
    */
@@ -3378,7 +3378,7 @@ class Google_Service_Analytics_ManagementWebPropertyAdWordsLinks_Resource extend
    * Web property ID to retrieve the AdWords link for.
    * @param string $webPropertyAdWordsLinkId
    * Web property-AdWords link ID.
-   * @param Google_EntityAdWordsLink $postBody
+   * @param Google_Service_Analytics_EntityAdWordsLink $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_EntityAdWordsLink
    */
@@ -3423,7 +3423,7 @@ class Google_Service_Analytics_ManagementWebproperties_Resource extends Google_S
    *
    * @param string $accountId
    * Account ID to create the web property for.
-   * @param Google_Webproperty $postBody
+   * @param Google_Service_Analytics_Webproperty $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_Webproperty
    */
@@ -3463,7 +3463,7 @@ class Google_Service_Analytics_ManagementWebproperties_Resource extends Google_S
    * Account ID to which the web property belongs
    * @param string $webPropertyId
    * Web property ID
-   * @param Google_Webproperty $postBody
+   * @param Google_Service_Analytics_Webproperty $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_Webproperty
    */
@@ -3480,7 +3480,7 @@ class Google_Service_Analytics_ManagementWebproperties_Resource extends Google_S
    * Account ID to which the web property belongs
    * @param string $webPropertyId
    * Web property ID
-   * @param Google_Webproperty $postBody
+   * @param Google_Service_Analytics_Webproperty $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_Webproperty
    */
@@ -3526,7 +3526,7 @@ class Google_Service_Analytics_ManagementWebpropertyUserLinks_Resource extends G
    * Account ID to create the user link for.
    * @param string $webPropertyId
    * Web Property ID to create the user link for.
-   * @param Google_EntityUserLink $postBody
+   * @param Google_Service_Analytics_EntityUserLink $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_EntityUserLink
    */
@@ -3570,7 +3570,7 @@ class Google_Service_Analytics_ManagementWebpropertyUserLinks_Resource extends G
    * Web property ID to update the account-user link for.
    * @param string $linkId
    * Link ID to update the account-user link for.
-   * @param Google_EntityUserLink $postBody
+   * @param Google_Service_Analytics_EntityUserLink $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_EntityUserLink
    */
@@ -3636,7 +3636,7 @@ class Google_Service_Analytics_Provisioning_Resource extends Google_Service_Reso
   /**
    * Creates an account ticket. (provisioning.createAccountTicket)
    *
-   * @param Google_AccountTicket $postBody
+   * @param Google_Service_Analytics_AccountTicket $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Analytics_AccountTicket
    */

@@ -469,7 +469,7 @@ class Google_Auth_OAuth2 extends Google_Auth_Abstract
    * @param $required_audience the expected consumer of the token
    * @param [$issuer] the expected issues, defaults to Google
    * @param [$max_expiry] the max lifetime of a token, defaults to MAX_TOKEN_LIFETIME_SECS
-   * @return token information if valid, false if not
+   * @return Google_Auth_LoginTicket information if valid, false if not
    */
   public function verifySignedJwtWithCerts(
       $jwt,

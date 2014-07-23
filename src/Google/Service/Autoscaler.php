@@ -319,7 +319,7 @@ class Google_Service_Autoscaler_Autoscalers_Resource extends Google_Service_Reso
    * Project ID of Autoscaler resource.
    * @param string $zone
    * Zone name of Autoscaler resource.
-   * @param Google_Autoscaler $postBody
+   * @param Google_Service_Autoscaler_Autoscaler $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Autoscaler_Operation
    */
@@ -362,7 +362,7 @@ class Google_Service_Autoscaler_Autoscalers_Resource extends Google_Service_Reso
    * Zone name of Autoscaler resource.
    * @param string $autoscaler
    * Name of the Autoscaler resource.
-   * @param Google_Autoscaler $postBody
+   * @param Google_Service_Autoscaler_Autoscaler $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Autoscaler_Operation
    */
@@ -381,7 +381,7 @@ class Google_Service_Autoscaler_Autoscalers_Resource extends Google_Service_Reso
    * Zone name of Autoscaler resource.
    * @param string $autoscaler
    * Name of the Autoscaler resource.
-   * @param Google_Autoscaler $postBody
+   * @param Google_Service_Autoscaler_Autoscaler $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Autoscaler_Operation
    */

@@ -292,7 +292,7 @@ class Google_Service_Doubleclicksearch_Conversion_Resource extends Google_Servic
    * Inserts a batch of new conversions into DoubleClick Search.
    * (conversion.insert)
    *
-   * @param Google_ConversionList $postBody
+   * @param Google_Service_Doubleclicksearch_ConversionList $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Doubleclicksearch_ConversionList
    */
@@ -320,7 +320,7 @@ class Google_Service_Doubleclicksearch_Conversion_Resource extends Google_Servic
    * First date (inclusive) on which to retrieve conversions. Format is yyyymmdd.
    * @param string $startRow
    * The 0-based starting index for retrieving conversions results.
-   * @param Google_ConversionList $postBody
+   * @param Google_Service_Doubleclicksearch_ConversionList $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Doubleclicksearch_ConversionList
    */
@@ -333,7 +333,7 @@ class Google_Service_Doubleclicksearch_Conversion_Resource extends Google_Servic
   /**
    * Updates a batch of conversions in DoubleClick Search. (conversion.update)
    *
-   * @param Google_ConversionList $postBody
+   * @param Google_Service_Doubleclicksearch_ConversionList $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Doubleclicksearch_ConversionList
    */
@@ -347,7 +347,7 @@ class Google_Service_Doubleclicksearch_Conversion_Resource extends Google_Servic
    * Updates the availabilities of a batch of floodlight activities in DoubleClick
    * Search. (conversion.updateAvailability)
    *
-   * @param Google_UpdateAvailabilityRequest $postBody
+   * @param Google_Service_Doubleclicksearch_UpdateAvailabilityRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Doubleclicksearch_UpdateAvailabilityResponse
    */
@@ -373,7 +373,7 @@ class Google_Service_Doubleclicksearch_Reports_Resource extends Google_Service_R
   /**
    * Generates and returns a report immediately. (reports.generate)
    *
-   * @param Google_ReportRequest $postBody
+   * @param Google_Service_Doubleclicksearch_ReportRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Doubleclicksearch_Report
    */
@@ -415,7 +415,7 @@ class Google_Service_Doubleclicksearch_Reports_Resource extends Google_Service_R
   /**
    * Inserts a report request into the reporting system. (reports.request)
    *
-   * @param Google_ReportRequest $postBody
+   * @param Google_Service_Doubleclicksearch_ReportRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Doubleclicksearch_Report
    */

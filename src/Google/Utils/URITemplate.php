@@ -56,6 +56,11 @@ class Google_Utils_URITemplate
     "%2A", "%2B", "%3B"
   );
 
+  /**
+   * @param string $string
+   *
+   * @return string
+   */
   public function parse($string, array $parameters)
   {
     return $this->resolveNextSection($string, $parameters);
@@ -80,6 +85,10 @@ class Google_Utils_URITemplate
     return $this->resolveNextSection($string, $parameters);
   }
 
+  /**
+   * @param integer $start
+   * @param integer $end
+   */
   private function replace($string, $start, $end, $parameters)
   {
     // We know a data block will have {} round it, so we can strip that.
@@ -145,6 +154,10 @@ class Google_Utils_URITemplate
     return substr($string, 0, $start) . $data . substr($string, $end + 1);
   }
 
+  /**
+   * @param string $section
+   * @param string $combine
+   */
   private function replaceVars(
       $section,
       $parameters,
@@ -290,6 +303,10 @@ class Google_Utils_URITemplate
   /**
    * Utility function that merges multiple combine calls
    * for multi-key templates.
+   * @param string $sep
+   * @param boolean $reserved
+   * @param boolean $tag_empty
+   * @param boolean $combine_on_empty
    */
   private function combineList(
       $vars,

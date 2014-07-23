@@ -336,7 +336,7 @@ class Google_Service_Tasks_Tasklists_Resource extends Google_Service_Resource
    * Creates a new task list and adds it to the authenticated user's task lists.
    * (tasklists.insert)
    *
-   * @param Google_TaskList $postBody
+   * @param Google_Service_Tasks_TaskList $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Tasks_TaskList
    */
@@ -369,7 +369,7 @@ class Google_Service_Tasks_Tasklists_Resource extends Google_Service_Resource
    *
    * @param string $tasklist
    * Task list identifier.
-   * @param Google_TaskList $postBody
+   * @param Google_Service_Tasks_TaskList $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Tasks_TaskList
    */
@@ -384,7 +384,7 @@ class Google_Service_Tasks_Tasklists_Resource extends Google_Service_Resource
    *
    * @param string $tasklist
    * Task list identifier.
-   * @param Google_TaskList $postBody
+   * @param Google_Service_Tasks_TaskList $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Tasks_TaskList
    */
@@ -458,7 +458,7 @@ class Google_Service_Tasks_Tasks_Resource extends Google_Service_Resource
    *
    * @param string $tasklist
    * Task list identifier.
-   * @param Google_Task $postBody
+   * @param Google_Service_Tasks_Task $postBody
    * @param array $optParams Optional parameters.
    *
    * @opt_param string parent
@@ -550,7 +550,7 @@ class Google_Service_Tasks_Tasks_Resource extends Google_Service_Resource
    * Task list identifier.
    * @param string $task
    * Task identifier.
-   * @param Google_Task $postBody
+   * @param Google_Service_Tasks_Task $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Tasks_Task
    */
@@ -567,7 +567,7 @@ class Google_Service_Tasks_Tasks_Resource extends Google_Service_Resource
    * Task list identifier.
    * @param string $task
    * Task identifier.
-   * @param Google_Task $postBody
+   * @param Google_Service_Tasks_Task $postBody
    * @param array $optParams Optional parameters.
    * @return Google_Service_Tasks_Task
    */
